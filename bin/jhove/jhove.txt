@@ -1,0 +1,4512 @@
+Jhove (Rel. 1.28.0, 2023-05-18)
+ Date: 2024-02-19 11:33:49 CET
+ RepresentationInformation: PDF-hul
+  Status: Unknown
+  ErrorMessage: File not found
+   ID: JHOVE-CORE-1
+ RepresentationInformation: /home/withanage/Downloads/ects users guide 2015-NC0514068ENN.pdf
+  ReportingModule: PDF-hul, Rel. 1.12.4 (2023-03-16)
+  LastModified: 2023-07-23 20:59:23 CEST
+  Size: 24980766
+  Format: PDF
+  Version: 1.6
+  Status: Well-Formed and valid
+  SignatureMatches:
+   PDF-hul
+  MIMEtype: application/pdf
+  Profile: Linearized PDF
+  PDFMetadata: 
+   Objects: 0
+   FreeObjects: 1
+   IncrementalUpdates: 0
+   DocumentCatalog: 
+    PageLayout: SinglePage
+    PageMode: UseNone
+   Filters: 
+    FilterPipeline: FlateDecode
+    FilterPipeline: DCTDecode
+   Images: 
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 72
+      ImageHeight: 99
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 821
+      ImageHeight: 817
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 423
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 423
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 423
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 423
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 423
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 423
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 1282
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 430
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 429
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 429
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 429
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 430
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 430
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 62
+      ImageHeight: 1282
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 659
+      ImageHeight: 300
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 73
+      ImageHeight: 202
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 73
+      ImageHeight: 202
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 86
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 297
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 983
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 722
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 868
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 414
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 301
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 26
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 721
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 131
+      ImageHeight: 202
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 241
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 414
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 57
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 87
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 131
+      ImageHeight: 202
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 296
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 983
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 915
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1281
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1159
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1220
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1037
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1098
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 915
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 976
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 366
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 854
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 29
+      ImageHeight: 1284
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 895
+      ImageHeight: 1284
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 26
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 783
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 205
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 414
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 362
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 723
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 482
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 302
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 242
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 42
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 87
+      ImageHeight: 82
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 205
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 41
+      ImageHeight: 298
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 41
+      ImageHeight: 981
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1281
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 976
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1159
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1220
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1037
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1098
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 915
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 976
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 854
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 26
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 26
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 24
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 37
+      ImageHeight: 26
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 26
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 54
+      ImageHeight: 51
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 26
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 1281
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 833
+      ImageHeight: 184
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 26
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 26
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1279
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 161
+      ImageHeight: 198
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 161
+      ImageHeight: 198
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 413
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 240
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 720
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 180
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 180
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 867
+      ImageHeight: 1279
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 86
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 982
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 296
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 35
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 26
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 54
+      ImageHeight: 50
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 357
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 357
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 357
+      ImageHeight: 366
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 179
+      ImageHeight: 794
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 357
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 357
+      ImageHeight: 366
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 179
+      ImageHeight: 488
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 357
+      ImageHeight: 367
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 36
+      ImageHeight: 25
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 714
+      ImageHeight: 184
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 180
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 124
+      ImageHeight: 610
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 124
+      ImageHeight: 366
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 120
+      ImageHeight: 201
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 57
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 124
+      ImageHeight: 488
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 186
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 120
+      ImageHeight: 201
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 86
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 296
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 660
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 982
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 301
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 180
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 414
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 186
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 62
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 62
+      ImageHeight: 1158
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 124
+      ImageHeight: 610
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 62
+      ImageHeight: 1036
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 124
+      ImageHeight: 610
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 62
+      ImageHeight: 914
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 124
+      ImageHeight: 610
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 186
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 854
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 892
+      ImageHeight: 61
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 140
+      ImageHeight: 202
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 87
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 297
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 983
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 721
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 414
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 241
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 140
+      ImageHeight: 202
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 976
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1281
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1159
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1220
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1037
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1098
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 915
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 976
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 306
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 854
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 128
+      ImageHeight: 198
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 184
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 128
+      ImageHeight: 198
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 62
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 87
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 296
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 983
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 414
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 301
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 721
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 186
+      ImageHeight: 671
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1281
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1159
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1037
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1037
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1037
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 915
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 976
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 186
+      ImageHeight: 610
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 854
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 26
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 428
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 417
+      ImageHeight: 427
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 1281
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 177
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 59
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 240
+      ImageHeight: 237
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 240
+      ImageHeight: 237
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 301
+      ImageHeight: 177
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 180
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 57
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 867
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 57
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 86
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 982
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 296
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 661
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 541
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 781
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 721
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 301
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 481
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 361
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 867
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 86
+      ImageHeight: 82
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 41
+      ImageHeight: 983
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 41
+      ImageHeight: 297
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 26
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 235
+      ImageHeight: 62
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 66
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 88
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 41
+      ImageHeight: 296
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 66
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 41
+      ImageHeight: 983
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 792
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 549
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 488
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 731
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 670
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 183
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 122
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 366
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 305
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 1281
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 235
+      ImageHeight: 611
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 118
+      ImageHeight: 1159
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 1220
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 118
+      ImageHeight: 1037
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 1098
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 118
+      ImageHeight: 915
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 976
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 235
+      ImageHeight: 611
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 60
+      ImageHeight: 854
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1283
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 57
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 87
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 297
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 985
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 361
+      ImageHeight: 356
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 301
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 856
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1284
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1162
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1223
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 1040
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 1101
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 918
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 125
+      ImageHeight: 979
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 187
+      ImageHeight: 429
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 63
+      ImageHeight: 856
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 661
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 541
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 781
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 721
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 301
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 481
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 361
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 867
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 86
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 59
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 982
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 297
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 297
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 892
+      ImageHeight: 62
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 297
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 297
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 297
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 298
+      ImageHeight: 305
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 25
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 121
+      ImageHeight: 119
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 59
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 181
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 120
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 241
+      ImageHeight: 237
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 241
+      ImageHeight: 237
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 300
+      ImageHeight: 178
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 180
+      ImageHeight: 60
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 59
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 59
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 57
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 867
+      ImageHeight: 1280
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 61
+      ImageHeight: 59
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 57
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 87
+      ImageHeight: 81
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 58
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 65
+      ImageHeight: 41
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 982
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+    Image: 
+     NisoImageMetadata: 
+      FormatName: image/jpg
+      CompressionScheme: JPEG
+      ImageWidth: 40
+      ImageHeight: 296
+      ColorSpace: CMYK
+      BitsPerSample: 8
+      BitsPerSampleUnit: integer
+   Fonts: 
+    Type0: 
+     Font: 
+      BaseFont: QIIKWI+Wingdings-Regular
+      Encoding: Identity-H
+      ToUnicode: true
+    Type1: 
+     Font: 
+      BaseFont: AAZZZA+Karbon-Medium
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 146
+      FontDescriptor: 
+       FontName: AAZZZA+Karbon-Medium
+       Flags: Nonsymbolic
+       FontBBox: -112, -190, 1061, 863
+       FontFile3: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: BKZZZC+Karbon-RegularItalic
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 120
+      FontDescriptor: 
+       FontName: BKZZZC+Karbon-RegularItalic
+       Flags: Nonsymbolic, Italic
+       FontBBox: -137, -190, 1033, 852
+       FontFile3: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: ABZZZC+Karbon-Regular
+      FontSubset: true
+      FirstChar: 30
+      LastChar: 169
+      FontDescriptor: 
+       FontName: ABZZZC+Karbon-Regular
+       Flags: Nonsymbolic
+       FontBBox: -100, -190, 1022, 852
+       FontFile3: true
+      EncodingDictionary: 
+       BaseEncoding: WinAnsiEncoding
+       Differences: true
+     Font: 
+      BaseFont: AAZZZA+Karbon-Medium
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 146
+      FontDescriptor: 
+       FontName: AAZZZA+Karbon-Medium
+       Flags: Nonsymbolic
+       FontBBox: -112, -190, 1061, 863
+       FontFile3: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: CAZZZC+Karbon-MediumItalic
+      FontSubset: true
+      FirstChar: 31
+      LastChar: 121
+      FontDescriptor: 
+       FontName: CAZZZC+Karbon-MediumItalic
+       Flags: Nonsymbolic, Italic
+       FontBBox: -145, -190, 1080, 858
+       FontFile3: true
+      EncodingDictionary: 
+       BaseEncoding: WinAnsiEncoding
+       Differences: true
+     Font: 
+      BaseFont: AAZZZA+Karbon-Medium
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 150
+      FontDescriptor: 
+       FontName: AAZZZA+Karbon-Medium
+       Flags: Nonsymbolic
+       FontBBox: -112, -190, 1061, 863
+       FontFile3: true
+      Encoding: WinAnsiEncoding
+      ToUnicode: true
+     Font: 
+      BaseFont: BIZZZC+Karbon-Semibold
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 117
+      FontDescriptor: 
+       FontName: BIZZZC+Karbon-Semibold
+       Flags: Nonsymbolic
+       FontBBox: -119, -190, 1084, 868
+       FontFile3: true
+      Encoding: WinAnsiEncoding
+     Font: 
+      BaseFont: BIZZZC+Karbon-Semibold
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 117
+      FontDescriptor: 
+       FontName: BIZZZC+Karbon-Semibold
+       Flags: Nonsymbolic
+       FontBBox: -119, -190, 1084, 868
+       FontFile3: true
+      Encoding: WinAnsiEncoding
+      ToUnicode: true
+     Font: 
+      BaseFont: BKZZZC+Karbon-RegularItalic
+      FontSubset: true
+      FirstChar: 32
+      LastChar: 121
+      FontDescriptor: 
+       FontName: BKZZZC+Karbon-RegularItalic
+       Flags: Nonsymbolic, Italic
+       FontBBox: -137, -190, 1033, 852
+       FontFile3: true
+      Encoding: WinAnsiEncoding
+      ToUnicode: true
+     Font: 
+      BaseFont: ABZZZA+Karbon-Light
+      FontSubset: true
+      FirstChar: 31
+      LastChar: 187
+      FontDescriptor: 
+       FontName: ABZZZA+Karbon-Light
+       Flags: Nonsymbolic
+       FontBBox: -90, -188, 994, 848
+       FontFile3: true
+      EncodingDictionary: 
+       BaseEncoding: WinAnsiEncoding
+       Differences: true
+      ToUnicode: true
+     Font: 
+      BaseFont: CAZZZC+Karbon-MediumItalic
+      FontSubset: true
+      FirstChar: 31
+      LastChar: 121
+      FontDescriptor: 
+       FontName: CAZZZC+Karbon-MediumItalic
+       Flags: Nonsymbolic, Italic
+       FontBBox: -145, -190, 1080, 858
+       FontFile3: true
+      EncodingDictionary: 
+       BaseEncoding: WinAnsiEncoding
+       Differences: true
+      ToUnicode: true
+     Font: 
+      BaseFont: ABZZZC+Karbon-Regular
+      FontSubset: true
+      FirstChar: 28
+      LastChar: 233
+      FontDescriptor: 
+       FontName: ABZZZC+Karbon-Regular
+       Flags: Nonsymbolic
+       FontBBox: -100, -190, 1022, 852
+       FontFile3: true
+      EncodingDictionary: 
+       BaseEncoding: WinAnsiEncoding
+       Differences: true
+      ToUnicode: true
+    CIDFontType2: 
+     Font: 
+      BaseFont: QIIKWI+Wingdings-Regular
+      CIDSystemInfo: 
+       Registry: Adobe
+       Registry: Identity
+       Supplement: 0
+      FontDescriptor: 
+       FontName: QIIKWI+Wingdings-Regular
+       Flags: Symbolic
+       FontBBox: 0, -211, 1359, 899
+       FontFile2: true
+   XMP: <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/">
+         <xmp:CreateDate>2015-05-20T12:13Z</xmp:CreateDate>
+         <xmp:CreatorTool>Prinect Printready</xmp:CreatorTool>
+         <xmp:ModifyDate>2015-06-04T10:47:51+02:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2015-06-04T10:47:51+02:00</xmp:MetadataDate>
+         <pdf:Producer>Prinect Printready</pdf:Producer>
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">DocHdl1OnPN-PRINTRDY-01tmpTarget</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmpMM:DocumentID>uuid:ecb4fa8e-1bda-3e49-85f4-2e36e41e37c7</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:2cd8cc0c-8278-48e2-b4ce-2a08a8fcf52e</xmpMM:InstanceID>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+   Pages: 
+    Page: 
+     Sequence: 1
+    Page: 
+     Sequence: 2
+    Page: 
+     Sequence: 3
+    Page: 
+     Sequence: 4
+    Page: 
+     Sequence: 5
+    Page: 
+     Sequence: 6
+    Page: 
+     Sequence: 7
+    Page: 
+     Sequence: 8
+    Page: 
+     Sequence: 9
+    Page: 
+     Sequence: 10
+    Page: 
+     Sequence: 11
+    Page: 
+     Sequence: 12
+    Page: 
+     Sequence: 13
+    Page: 
+     Sequence: 14
+    Page: 
+     Sequence: 15
+    Page: 
+     Sequence: 16
+    Page: 
+     Sequence: 17
+    Page: 
+     Sequence: 18
+    Page: 
+     Sequence: 19
+    Page: 
+     Sequence: 20
+    Page: 
+     Sequence: 21
+    Page: 
+     Sequence: 22
+    Page: 
+     Sequence: 23
+    Page: 
+     Sequence: 24
+    Page: 
+     Sequence: 25
+    Page: 
+     Sequence: 26
+    Page: 
+     Sequence: 27
+    Page: 
+     Sequence: 28
+    Page: 
+     Sequence: 29
+    Page: 
+     Sequence: 30
+    Page: 
+     Sequence: 31
+    Page: 
+     Sequence: 32
+    Page: 
+     Sequence: 33
+    Page: 
+     Sequence: 34
+    Page: 
+     Sequence: 35
+    Page: 
+     Sequence: 36
+    Page: 
+     Sequence: 37
+    Page: 
+     Sequence: 38
+    Page: 
+     Sequence: 39
+    Page: 
+     Sequence: 40
+    Page: 
+     Sequence: 41
+    Page: 
+     Sequence: 42
+    Page: 
+     Sequence: 43
+    Page: 
+     Sequence: 44
+    Page: 
+     Sequence: 45
+    Page: 
+     Sequence: 46
+    Page: 
+     Sequence: 47
+    Page: 
+     Sequence: 48
+    Page: 
+     Sequence: 49
+    Page: 
+     Sequence: 50
+    Page: 
+     Sequence: 51
+    Page: 
+     Sequence: 52
+    Page: 
+     Sequence: 53
+    Page: 
+     Sequence: 54
+    Page: 
+     Sequence: 55
+    Page: 
+     Sequence: 56
+    Page: 
+     Sequence: 57
+    Page: 
+     Sequence: 58
+    Page: 
+     Sequence: 59
+    Page: 
+     Sequence: 60
+    Page: 
+     Sequence: 61
+    Page: 
+     Sequence: 62
+    Page: 
+     Sequence: 63
+    Page: 
+     Sequence: 64
+    Page: 
+     Sequence: 65
+    Page: 
+     Sequence: 66
+    Page: 
+     Sequence: 67
+    Page: 
+     Sequence: 68
+    Page: 
+     Sequence: 69
+    Page: 
+     Sequence: 70
+    Page: 
+     Sequence: 71
+    Page: 
+     Sequence: 72
+    Page: 
+     Sequence: 73
+    Page: 
+     Sequence: 74
+    Page: 
+     Sequence: 75
+    Page: 
+     Sequence: 76
+    Page: 
+     Sequence: 77
+    Page: 
+     Sequence: 78
+    Page: 
+     Sequence: 79
+    Page: 
+     Sequence: 80
+    Page: 
+     Sequence: 81
+    Page: 
+     Sequence: 82
+    Page: 
+     Sequence: 83
+    Page: 
+     Sequence: 84
+    Page: 
+     Sequence: 85
+    Page: 
+     Sequence: 86
+    Page: 
+     Sequence: 87
+    Page: 
+     Sequence: 88
+    Page: 
+     Sequence: 89
+    Page: 
+     Sequence: 90
+    Page: 
+     Sequence: 91
+    Page: 
+     Sequence: 92
+    Page: 
+     Sequence: 93
+    Page: 
+     Sequence: 94
+    Page: 
+     Sequence: 95
+    Page: 
+     Sequence: 96
+    Page: 
+     Sequence: 97
+    Page: 
+     Sequence: 98
+    Page: 
+     Sequence: 99
+    Page: 
+     Sequence: 100
+    Page: 
+     Sequence: 101
+    Page: 
+     Sequence: 102
+    Page: 
+     Sequence: 103
+    Page: 
+     Sequence: 104
+    Page: 
+     Sequence: 105
+    Page: 
+     Sequence: 106
+    Page: 
+     Sequence: 107
+    Page: 
+     Sequence: 108
