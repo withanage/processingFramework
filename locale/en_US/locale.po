@@ -1,0 +1,15 @@
+
+msgid "plugins.generic.jhoveValidator.displayName"
+msgstr "JHOVE validation Plugin"
+
+msgid "plugins.generic.jhoveValidator.description"
+msgstr "This Plugin validates the pdf galley using jhove"
+
+msgid "plugins.generic.jhoveValidator.setting.description"
+msgstr "jhove validation settings"
+
+msgid "plugins.generic.jhoveValidator.setting.enableValidation"
+msgstr "Enable Validation"
+
+
+
