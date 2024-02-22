@@ -1,6 +1,9 @@
-## JHOBR Validator plugin
+## JHOVE Validator plugin
 
-This Plugin validates the article  mandatory metadata   for indexing in the following services:
+This Plugin validates the article  galley pdf quality  for indexing in the following services:
+
+Currently included open-source tools
+- [JHOVE]( https://github.com/openpreserve/jhove)
 
 
 ### Supported OJS versions
@@ -9,25 +12,30 @@ This Plugin validates the article  mandatory metadata   for indexing in the foll
 ### Installation
 ```bash
 cd $OJS/plugins/generic
-git clone https://github.com/withanage/jhoveValidator.git # or download
+git clone https://github.com/withanage/pdfValidator.git # or download
 git checkout -b stable-3_3_0 # branch
 ```
 ### Configuration
 - Goto Website -> Plugins
-- Search jhovevalidator plugin under generic plugins
+- Search pdfvalidator plugin under generic plugins
 - Enable plugin
 - Got to settings
-- Enable services needed for validation
-
+- Enable jhove
 ### Demo
 
 
 ### Troubleshooting
-- Please file an [Issue](https://github.com/withanage/jhoveValidator/issues)
+- Please file an [Issue](https://github.com/withanage/pdfValidator/issues)
+
+
+# Disclaimer
+-  This software includes https://github.com/openpreserve/jhove as binary files.
+
 
 # Information
 - This OJS plugin was developed by [TIB](https://tib.eu)
 
 # Concept, Lead
 
-- https://github.com/withanage/jhoveValidator
+- https://github.com/withanage/
+

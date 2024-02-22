@@ -1,6 +1,6 @@
 <?php
 
-abstract class jhoveValidator
+abstract class pdfValidator
 {
 
 	protected array $errors;

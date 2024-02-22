@@ -1,6 +1,6 @@
 <?php
 import('lib.pkp.classes.form.Form');
-class jhoveValidatorPluginSettingsForm extends Form
+class pdfValidatorPluginSettingsForm extends Form
 {
 	public $plugin;
 

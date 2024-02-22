@@ -1,5 +1,5 @@
 <?php
 
 
-require_once('PublicationValidatorPlugin.php');
-return new jhoveValidatorPlugin();
+require_once('pdfValidatorPlugin.php');
+return new pdfValidatorPlugin();
