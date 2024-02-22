@@ -1,7 +1,7 @@
 <?php
 
 import('lib.pkp.classes.plugins.GenericPlugin');
-import('plugins.generic.pdfValidator.classes.services.ServiceJHOVE');
+import('plugins.generic.pdfValidator.classes.services.JHOVEValidator');
 
 class pdfValidatorPlugin extends GenericPlugin
 {
@@ -91,7 +91,7 @@ class pdfValidatorPlugin extends GenericPlugin
 		$includedServices = '';
 
 		if (Config::getVar('pdfValidator', 'enableJhove') === 1 || $this->getSetting($context->getId(), 'enableJhove') == 1) {
-			$errors = $errors + (new ServiceJHOVE())->validate($publication, $submission, $context)->getErrors();
+			$errors = $errors + (new JHOVEValidator())->validate($publication, $submission, $context)->getErrors();
 			$includedServices = $includedServices . ' Jhove,';
 		}
 		$includedServices = rtrim($includedServices, ',');
@@ -123,40 +123,53 @@ class pdfValidatorPlugin extends GenericPlugin
 		$router = $request->getRouter();
 		$dispatcher = $router->getDispatcher();
 
+
 		$templateMgr = $params[0];
 		$resourceName = $params[1];
 		if ($resourceName == 'controllers/grid/gridRow.tpl') {
 			$row = $templateMgr->getTemplateVars('row');
 			$data = $row->getData();
 			if (is_array($data) && (isset($data['submissionFile']))) {
+
 				$submissionFile = $data['submissionFile'];
 				$fileExtension = strtolower($submissionFile->getData('mimetype'));
 				$stageId = (int)$request->getUserVar('stageId');
+				$fileStage = SUBMISSION_FILE_PRODUCTION_READY;
 
 				if (strtolower($fileExtension) == 'application/pdf') {
 					import('lib.pkp.classes.linkAction.request.OpenWindowAction');
-					$this->pdfValidatorAction($row, $dispatcher, $request, $submissionFile, $stageId);
+					$this->pdfValidatorAction($row, $dispatcher, $request, $submissionFile, $stageId, $fileStage);
 				}
 			}
 		}
 	}
-	private function pdfValidatorAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile, int $stageId): void {
+	private function pdfValidatorAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile, int $stageId,  int $fileStage): void {
 
+		$actionArgs = array(
+			'submissionId' => $submissionFile->getData('submissionId'),
+			'stageId' => $stageId,
+			'fileStage' => $fileStage,
+			'submissionFileId' => $submissionFile->getData('id')
+		);
 		$row->addAction(new LinkAction(
-			'pdf_validate',
-			new OpenWindowAction(
-				$dispatcher->url($request, ROUTE_PAGE, null, 'pdfValidator', 'validator', null,
-					array(
-						'submissionId' => $submissionFile->getData('submissionId'),
-						'submissionFileId' => $submissionFile->getData('id'),
-						'stageId' => $stageId
-					)
-				)
+			'PDFValidatorForm',
+			new AjaxModal(
+				$dispatcher->url(
+					$request, ROUTE_PAGE, null,
+					'pdfValidatorMo',
+					'validatePDFModal',
+					null,
+					$actionArgs
+				),
+				__('plugins.generic.validator.pdfValidatorForm.title')
 			),
 			__('plugins.generic.pdfValidator.links.pdfValidate'),
 			null
 		));
+
 	}
+
+
 
 	public function callbackLoadHandler($hookName, $args) {
 

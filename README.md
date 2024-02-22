@@ -1,4 +1,4 @@
-## JHOVE Validator plugin
+## PDF Validator plugin
 
 This Plugin validates the article  galley pdf quality  for indexing in the following services:
 

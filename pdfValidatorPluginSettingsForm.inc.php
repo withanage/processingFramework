@@ -52,8 +52,7 @@ class pdfValidatorPluginSettingsForm extends Form
 
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign('pluginName', $this->plugin->getName());
-		$templateMgr->assign('disableJhove', $this->plugin->isGloballyConfigured('disableJhove'));
-
+		
 
 		return parent::fetch($request, $template, $display);
 	}

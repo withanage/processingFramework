@@ -25,12 +25,30 @@ class pdfValidatorHandler extends Handler {
 		$this->publication = $this->submission->getLatestPublication();
 		$this->setupTemplate($request);
 	}
+	function authorize($request, &$args, $roleAssignments) {
+		import('lib.pkp.classes.security.authorization.WorkflowStageAccessPolicy');
+		$this->addPolicy(new WorkflowStageAccessPolicy($request, $args, $roleAssignments, 'submissionId', (int)$request->getUserVar('stageId')));
+		return parent::authorize($request, $args, $roleAssignments);
+	}
 
 	public function validatePDF($args, $request)
 	{
 		import('plugins.generic.pdfValidator.controllers.grid.form.PDFValidatorForm');
+		$PDFValidatorForm = new PDFValidatorForm($request, $this->_plugin, $this->publication, $this->submission);
+		$PDFValidatorForm->initData();
+		if ($PDFValidatorForm->validate()) {
+			$PDFValidatorForm->execute();
+			return new JSONMessage(true, $PDFValidatorForm->fetch($request));
+		}
+		else {
+			return new JSONMessage(true, $PDFValidatorForm->fetch($request));
+		}
 
-
+		return new JSONMessage(false);
+	}
+	function execute(...$functionArgs)
+	{
+	return true;
 	}
 
 }

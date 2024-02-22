@@ -1,12 +1,12 @@
 
 msgid "plugins.generic.pdfValidator.displayName"
-msgstr "JHOVE validation Plugin"
+msgstr "PDF validation Plugin"
 
 msgid "plugins.generic.pdfValidator.description"
 msgstr "This Plugin validates the pdf galley using jhove"
 
 msgid "plugins.generic.pdfValidator.setting.description"
-msgstr "jhove validation settings"
+msgstr "PDF validation settings"
 
 msgid "plugins.generic.pdfValidator.setting.enableValidation"
 msgstr "Enable Validation"
@@ -14,5 +14,8 @@ msgstr "Enable Validation"
 msgid "plugins.generic.pdfValidator.links.pdfValidate"
 msgstr "Validate PDF File"
 
-msgid "plugins.generic.pdfValidator.links.pdfValidate"
-msgstr "Validate PDF File"
+msgid "plugins.generic.validator.pdfValidatorForm.title"
+msgstr "PDF Validation Form"
+
+msgid "plugins.generic.pdfValidator.setting.enableJhove.description"
+msgstr "Enable JHOVE"

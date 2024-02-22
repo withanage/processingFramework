@@ -22,9 +22,7 @@
 
 	{fbvFormArea id="pdfValidatorFormArea"}
 
-    {fbvFormSection title="plugins.generic.validator.createGalley.customModifications"}
-
-
+    {fbvFormSection title=""}
 
 
     {/fbvFormSection}

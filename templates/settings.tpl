@@ -33,7 +33,7 @@
 				checked=$enableJhove
 				value=true
 				label="plugins.generic.pdfValidator.setting.enableJhove.description"
-				disabled=$disableOpenAire
+				disabled=$disableJhove
 				translate="true"
 			}
 
