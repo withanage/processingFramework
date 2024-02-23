@@ -9,15 +9,15 @@
  *}
 <script>
 	$(function() {ldelim}
-		$('#pdfValidatorSettings').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
+		$('#fileValidatorSettings').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
 	{rdelim});
 </script>
 
-{translate key="plugins.generic.pdfValidator.setting.description"}
+{translate key="plugins.generic.fileValidator.setting.description"}
 
 <form
 	class="pkp_form"
-	id="pdfValidatorSettings"
+	id="fileValidatorSettings"
 	method="POST"
 	action="{url router=$smarty.const.ROUTE_COMPONENT op="manage" category="generic" plugin=$pluginName verb="settings" save=true}"
 >
@@ -25,14 +25,14 @@
 	{csrf}
 
 	{fbvFormArea}
-		{fbvFormSection label="plugins.generic.pdfValidator.setting.enableValidation" for="enableValidation" list=true}
+		{fbvFormSection label="plugins.generic.fileValidator.setting.enableValidation" for="enableValidation" list=true}
 			{fbvElement
 				type="checkbox"
 				name="enableJhove"
 				id="enableJhove"
 				checked=$enableJhove
 				value=true
-				label="plugins.generic.pdfValidator.setting.enableJhove.description"
+				label="plugins.generic.fileValidator.setting.enableJhove.description"
 				disabled=$disableJhove
 				translate="true"
 			}

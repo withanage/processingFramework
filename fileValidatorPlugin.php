@@ -1,9 +1,9 @@
 <?php
 
 import('lib.pkp.classes.plugins.GenericPlugin');
-import('plugins.generic.pdfValidator.classes.services.JHOVEValidator');
+import('plugins.generic.fileValidator.classes.services.JHOVEValidator');
 
-class pdfValidatorPlugin extends GenericPlugin
+class fileValidatorPlugin extends GenericPlugin
 {
 	public function register($category, $path, $mainContextId = NULL)
 	{
@@ -22,7 +22,7 @@ class pdfValidatorPlugin extends GenericPlugin
 
 	public function getDescription()
 	{
-		return __('plugins.generic.pdfValidator.description');
+		return __('plugins.generic.fileValidator.description');
 	}
 
 	public function getActions($request, $actionArgs)
@@ -56,7 +56,7 @@ class pdfValidatorPlugin extends GenericPlugin
 
 	public function getDisplayName()
 	{
-		return __('plugins.generic.pdfValidator.displayName');
+		return __('plugins.generic.fileValidator.displayName');
 	}
 
 	public function manage($args, $request)
@@ -64,8 +64,8 @@ class pdfValidatorPlugin extends GenericPlugin
 		switch ($request->getUserVar('verb')) {
 			case 'settings':
 
-				$this->import('pdfValidatorPluginSettingsForm');
-				$form = new pdfValidatorPluginSettingsForm($this);
+				$this->import('fileValidatorPluginSettingsForm');
+				$form = new fileValidatorPluginSettingsForm($this);
 
 				if (!$request->getUserVar('save')) {
 					$form->initData();
@@ -81,33 +81,14 @@ class pdfValidatorPlugin extends GenericPlugin
 		return parent::manage($args, $request);
 	}
 
-	public function validate($hookName, $args)
-	{
-		$errors =& $args[0];
-		$publication = $args[1];
-		$submission = $args[2];
-		$request = PKPApplication::get()->getRequest();
-		$context = $request->getContext();
-		$includedServices = '';
 
-		if (Config::getVar('pdfValidator', 'enableJhove') === 1 || $this->getSetting($context->getId(), 'enableJhove') == 1) {
-			$errors = $errors + (new JHOVEValidator())->validate($publication, $submission, $context)->getErrors();
-			$includedServices = $includedServices . ' Jhove,';
-		}
-		$includedServices = rtrim($includedServices, ',');
-		if (!empty($errors)) {
-			$errors[] = __(
-				'plugins.generic.pdfValidator.publication.services',
-				array('services' => $includedServices));
-		}
 
-	}
 
 	function getSetting($contextId, $name)
 	{
 		switch ($name) {
 			case 'enableJhove':
-				$config_value = Config::getVar('pdfValidator', 'openair');
+				$config_value = Config::getVar('fileValidator', 'jhove');
 				break;
 			default:
 				return parent::getSetting($contextId, $name);
@@ -133,39 +114,55 @@ class pdfValidatorPlugin extends GenericPlugin
 
 				$submissionFile = $data['submissionFile'];
 				$fileExtension = strtolower($submissionFile->getData('mimetype'));
-				$stageId = (int)$request->getUserVar('stageId');
-				$fileStage = SUBMISSION_FILE_PRODUCTION_READY;
 
-				if (strtolower($fileExtension) == 'application/pdf') {
-					import('lib.pkp.classes.linkAction.request.OpenWindowAction');
-					$this->pdfValidatorAction($row, $dispatcher, $request, $submissionFile, $stageId, $fileStage);
+				$submissionId = $submissionFile->getData('submissionId');
+				$submission = Services::get('submission')->get($submissionId);
+				$stageId = (int) $request->getUserVar('stageId');
+				$submissionStageId = $submission->getData('stageId');
+				$roles = $request->getUser()->getRoles($request->getContext()->getId());
+
+				$accessAllowed = false;
+				foreach ($roles as $role) {
+					if (in_array($role->getId(), [ROLE_ID_MANAGER, ROLE_ID_SUB_EDITOR, ROLE_ID_ASSISTANT])) {
+						$accessAllowed = true;
+						break;
+					}
+				}
+				if (in_array(strtolower($fileExtension), static::getSupportedMimetypes()) && $accessAllowed &&
+					in_array($stageId, $this->getAllowedWorkflowStages()) && in_array($submissionStageId, $this->getAllowedWorkflowStages())) {
+
+					$this->fileValidatorAction($row, $dispatcher, $request, $submissionFile);
 				}
 			}
 		}
 	}
-	private function pdfValidatorAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile, int $stageId,  int $fileStage): void {
+	private function fileValidatorAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile): void {
 
-		$actionArgs = array(
-			'submissionId' => $submissionFile->getData('submissionId'),
-			'stageId' => $stageId,
-			'fileStage' => $fileStage,
-			'submissionFileId' => $submissionFile->getData('id')
+		$submissionId = $submissionFile->getData('submissionId');
+		$stageId = (int) $request->getUserVar('stageId');
+
+		$path = $dispatcher->url($request, ROUTE_PAGE, null, 'fileValidator', 'validateFile', null,
+			array(
+				'submissionId' => $submissionId,
+				'fileId' => $submissionFile->getData('fileId'),
+				'stageId' => $stageId
+			));
+		$pathRedirect = $dispatcher->url($request, ROUTE_PAGE, null, 'workflow', 'access',
+			array(
+				'submissionId' => $submissionId,
+				'fileId' => $submissionFile->getData('fileId'),
+				'stageId' => $stageId
+			));
+
+		import('lib.pkp.classes.linkAction.request.AjaxAction');
+		$linkAction = new LinkAction(
+			'parse',
+			new PostAndRedirectAction($path, $pathRedirect),
+			__('plugins.generic.fileValidator.links.fileValidate')
 		);
-		$row->addAction(new LinkAction(
-			'PDFValidatorForm',
-			new AjaxModal(
-				$dispatcher->url(
-					$request, ROUTE_PAGE, null,
-					'pdfValidatorMo',
-					'validatePDFModal',
-					null,
-					$actionArgs
-				),
-				__('plugins.generic.validator.pdfValidatorForm.title')
-			),
-			__('plugins.generic.pdfValidator.links.pdfValidate'),
-			null
-		));
+		$row->addAction($linkAction);
+
+
 
 	}
 
@@ -177,14 +174,26 @@ class pdfValidatorPlugin extends GenericPlugin
 		$op = $args[1];
 
 		switch ("$page/$op") {
-			case 'pdfValidator/validatePDF':
-				define('HANDLER_CLASS', 'pdfValidatorHandler');
-				define('PDF_VALIDATOR_PLUGIN_NAME', $this->getName());
-				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'pdfValidatorHandler.inc.php';
+			case 'fileValidator/validateFile':
+				define('HANDLER_CLASS', 'fileValidatorHandler');
+				define('FILE_VALIDATOR_PLUGIN_NAME', $this->getName());
+				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'fileValidatorHandler.inc.php';
 				break;
 		}
 
 		return false;
+	}
+
+
+	public function getSupportedMimeTypes():  array
+	{
+		return  array('application/pdf');
+	}
+	public function getAllowedWorkflowStages() {
+		return [
+			WORKFLOW_STAGE_ID_EDITING,
+			WORKFLOW_STAGE_ID_PRODUCTION
+		];
 	}
 
 }

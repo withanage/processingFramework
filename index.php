@@ -1,5 +1,5 @@
 <?php
 
 
-require_once('pdfValidatorPlugin.php');
-return new pdfValidatorPlugin();
+require_once('fileValidatorPlugin.php');
+return new fileValidatorPlugin();

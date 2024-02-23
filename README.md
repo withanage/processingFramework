@@ -1,4 +1,4 @@
-## PDF Validator plugin
+## File Validator plugin
 
 This Plugin validates the article  galley pdf quality  for indexing in the following services:
 
@@ -12,12 +12,12 @@ Currently included open-source tools
 ### Installation
 ```bash
 cd $OJS/plugins/generic
-git clone https://github.com/withanage/pdfValidator.git # or download
+git clone https://github.com/withanage/fileValidator.git # or download
 git checkout -b stable-3_3_0 # branch
 ```
 ### Configuration
 - Goto Website -> Plugins
-- Search pdfvalidator plugin under generic plugins
+- Search fileValidator plugin under generic plugins
 - Enable plugin
 - Got to settings
 - Enable jhove
@@ -25,7 +25,7 @@ git checkout -b stable-3_3_0 # branch
 
 
 ### Troubleshooting
-- Please file an [Issue](https://github.com/withanage/pdfValidator/issues)
+- Please file an [Issue](https://github.com/withanage/fileValidator/issues)
 
 
 # Disclaimer

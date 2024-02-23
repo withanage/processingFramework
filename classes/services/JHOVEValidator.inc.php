@@ -1,30 +1,18 @@
 <?php
 
 namespace services;
-use pdfValidator;
-use Publication;
-use Submission;
 
-import('plugins.generic.pdfValidator.classes.pdfValidator');
+import('plugins.generic.fileValidator.classes.services.pdfValidator');
 
 class JHOVEValidator extends pdfValidator
 {
 
-	public function validate(Publication $publication, Submission $submission, $context)
+
+
+	public function getValidationResults(): string
 	{
-		$pdfValidationResults = $this->validatePDF($publication);
+		$resutls= '';
 
-		$this->errors = array_merge(
-			$pdfValidationResults,
-
-		);
-		return $this;
-	}
-
-	function validatePDF(Publication $publication): bool
-	{
-		$validationStatus = true;
-
-		return $validationStatus;
+	return $resutls;
 	}
 }

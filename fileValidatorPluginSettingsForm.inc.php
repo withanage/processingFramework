@@ -1,6 +1,6 @@
 <?php
 import('lib.pkp.classes.form.Form');
-class pdfValidatorPluginSettingsForm extends Form
+class fileValidatorPluginSettingsForm extends Form
 {
 	public $plugin;
 
@@ -52,7 +52,7 @@ class pdfValidatorPluginSettingsForm extends Form
 
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign('pluginName', $this->plugin->getName());
-		
+
 
 		return parent::fetch($request, $template, $display);
 	}
