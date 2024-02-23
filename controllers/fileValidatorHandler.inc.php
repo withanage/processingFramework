@@ -58,8 +58,9 @@ class fileValidatorHandler extends Handler
 		$fileManager = new PrivateFileManager();
 		$filePath = $fileManager->getBasePath() . '/' . $submissionFile->getData('path');
 		$tempFileName = tempnam(sys_get_temp_dir(), 'fileValidator');
-		$jhoveValidator = new \services\JHOVEValidator($filePath);
-		$results = $jhoveValidator->getValidationResults();
+		$jhoveValidator = new \services\JHOVEValidator($this->_plugin);
+		$jhoveValidator->run($filePath);
+		$results = $jhoveValidator->getResult();
 		file_put_contents($tempFileName, $results);
 
 
