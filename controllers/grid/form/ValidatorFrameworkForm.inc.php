@@ -2,14 +2,14 @@
 
 import('lib.pkp.classes.form.Form');
 
-class fileValidatorForm extends Form
+class ValidationFrameworkForm extends Form
 {
 	function __construct($request, $plugin, $publication, $submission)
 	{
 		$this->_submission = $submission;
 		$this->_publication = $publication;
 
-		parent::__construct($plugin->getTemplateResource('fileValidator.tpl'));
+		parent::__construct($plugin->getTemplateResource('ValidationFramework.tpl'));
 		AppLocale::requireComponents(LOCALE_COMPONENT_APP_EDITOR, LOCALE_COMPONENT_PKP_SUBMISSION);
 
 		$this->addCheck(new FormValidatorPost($this));

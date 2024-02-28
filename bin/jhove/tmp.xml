@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove"
+	   xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd"
+	   name="Jhove" release="1.28.0" date="2023-05-18">
+	<date>2024-02-23T17:25:13+01:00</date>
+	<repInfo uri="/var/www/html/ojs-3_3_files/journals/1/articles/19/64a7d5a9821cc.pdf">
+		<reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
+		<lastModified>2023-07-07T11:06:49+02:00</lastModified>
+		<size>142513</size>
+		<format>PDF</format>
+		<version>1.5</version>
+		<status>Well-Formed and valid</status>
+		<sigMatch>
+			<module>PDF-hul</module>
+		</sigMatch>
+		<mimeType>application/pdf</mimeType>
+		<properties>
+			<property>
+				<name>PDFMetadata</name>
+				<values arity="List" type="Property">
+					<property>
+						<name>Objects</name>
+						<values arity="Scalar" type="Integer">
+							<value>0</value>
+						</values>
+					</property>
+					<property>
+						<name>FreeObjects</name>
+						<values arity="Scalar" type="Integer">
+							<value>1</value>
+						</values>
+					</property>
+					<property>
+						<name>IncrementalUpdates</name>
+						<values arity="Scalar" type="Integer">
+							<value>0</value>
+						</values>
+					</property>
+					<property>
+						<name>DocumentCatalog</name>
+						<values arity="List" type="Property">
+							<property>
+								<name>PageLayout</name>
+								<values arity="Scalar" type="String">
+									<value>SinglePage</value>
+								</values>
+							</property>
+							<property>
+								<name>PageMode</name>
+								<values arity="Scalar" type="String">
+									<value>UseOutlines</value>
+								</values>
+							</property>
+							<property>
+								<name>Outlines</name>
+								<values arity="List" type="Property">
+									<property>
+										<name>Item</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>Title</name>
+												<values arity="Scalar" type="String">
+													<value>うどひびぴ〠びづっぴどはの</value>
+												</values>
+											</property>
+											<property>
+												<name>Children</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Item</name>
+														<values arity="List" type="Property">
+															<property>
+																<name>Title</name>
+																<values arity="Scalar" type="String">
+																	<value>こふぢびづっぴどはの</value>
+																</values>
+															</property>
+															<property>
+																<name>Children</name>
+																<values arity="List" type="Property">
+																	<property>
+																		<name>Item</name>
+																		<values arity="List" type="Property">
+																			<property>
+																				<name>Title</name>
+																				<values arity="Scalar" type="String">
+																					<value>
+																						ごとひづづ〠ぬづぶづぬび〠はて〠とづちつぬどのづび〠ねちべ〠ぢづ〠ふびづつ
+																					</value>
+																				</values>
+																			</property>
+																		</values>
+																	</property>
+																</values>
+															</property>
+														</values>
+													</property>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Item</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>Title</name>
+												<values arity="Scalar" type="String">
+													<value>こづっはのつ〠びづっぴどはの</value>
+												</values>
+											</property>
+										</values>
+									</property>
+								</values>
+							</property>
+						</values>
+					</property>
+					<property>
+						<name>Filters</name>
+						<values arity="List" type="Property">
+							<property>
+								<name>FilterPipeline</name>
+								<values arity="Scalar" type="String">
+									<value>FlateDecode</value>
+								</values>
+							</property>
+						</values>
+					</property>
+					<property>
+						<name>Fonts</name>
+						<values arity="List" type="Property">
+							<property>
+								<name>Type1</name>
+								<values arity="List" type="Property">
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>KFMIMO+NimbusSanL-ReguItal</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>46</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>118</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>KFMIMO+NimbusSanL-ReguItal</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-178</value>
+															<value>-284</value>
+															<value>1108</value>
+															<value>953</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>EncodingDictionary</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Differences</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>OHMPEU+CMR8</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>50</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>50</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>OHMPEU+CMR8</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-36</value>
+															<value>-250</value>
+															<value>1070</value>
+															<value>750</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>IPYVRW+NimbusSanL-Regu</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>2</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>169</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>IPYVRW+NimbusSanL-Regu</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-174</value>
+															<value>-285</value>
+															<value>1001</value>
+															<value>953</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>EncodingDictionary</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Differences</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>AYADMI+CMTT12</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>46</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>116</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>AYADMI+CMTT12</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-1</value>
+															<value>-234</value>
+															<value>524</value>
+															<value>695</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>PDOZGQ+CMSY9</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>110</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>110</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>PDOZGQ+CMSY9</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-29</value>
+															<value>-958</value>
+															<value>1146</value>
+															<value>777</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>DHYVWN+NimbusSanL-Bold</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>46</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>122</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>DHYVWN+NimbusSanL-Bold</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-173</value>
+															<value>-307</value>
+															<value>1003</value>
+															<value>949</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>EncodingDictionary</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Differences</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>JBJEJD+CMMI10</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>59</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>67</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>JBJEJD+CMMI10</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-32</value>
+															<value>-250</value>
+															<value>1048</value>
+															<value>750</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>UWDMKL+CMR10</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>48</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>123</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>UWDMKL+CMR10</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-40</value>
+															<value>-250</value>
+															<value>1009</value>
+															<value>750</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>NIHZFD+CMSY8</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>14</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>106</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>NIHZFD+CMSY8</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-30</value>
+															<value>-955</value>
+															<value>1185</value>
+															<value>779</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>AGTGYQ+CMMI8</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>103</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>115</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>AGTGYQ+CMMI8</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-24</value>
+															<value>-250</value>
+															<value>1110</value>
+															<value>750</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>KHTTPA+CMR5</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>50</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>51</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>KHTTPA+CMR5</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-10</value>
+															<value>-250</value>
+															<value>1304</value>
+															<value>750</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>CKUQXN+CMSY10</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>1</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>1</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>CKUQXN+CMSY10</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-29</value>
+															<value>-960</value>
+															<value>1116</value>
+															<value>775</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>VHZCSQ+CMMI12</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>97</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>122</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>VHZCSQ+CMMI12</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-31</value>
+															<value>-250</value>
+															<value>1026</value>
+															<value>750</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+									<property>
+										<name>Font</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>BaseFont</name>
+												<values arity="Scalar" type="String">
+													<value>HTQIEW+CMR12</value>
+												</values>
+											</property>
+											<property>
+												<name>FontSubset</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+											<property>
+												<name>FirstChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>43</value>
+												</values>
+											</property>
+											<property>
+												<name>LastChar</name>
+												<values arity="Scalar" type="Integer">
+													<value>61</value>
+												</values>
+											</property>
+											<property>
+												<name>FontDescriptor</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>FontName</name>
+														<values arity="Scalar" type="String">
+															<value>HTQIEW+CMR12</value>
+														</values>
+													</property>
+													<property>
+														<name>Flags</name>
+														<values arity="List" type="String">
+															<value>Symbolic</value>
+														</values>
+													</property>
+													<property>
+														<name>FontBBox</name>
+														<values arity="Array" type="Integer">
+															<value>-34</value>
+															<value>-251</value>
+															<value>988</value>
+															<value>750</value>
+														</values>
+													</property>
+													<property>
+														<name>FontFile</name>
+														<values arity="Scalar" type="Boolean">
+															<value>true</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>ToUnicode</name>
+												<values arity="Scalar" type="Boolean">
+													<value>true</value>
+												</values>
+											</property>
+										</values>
+									</property>
+								</values>
+							</property>
+						</values>
+					</property>
+					<property>
+						<name>Pages</name>
+						<values arity="List" type="Property">
+							<property>
+								<name>Page</name>
+								<values arity="List" type="Property">
+									<property>
+										<name>Label</name>
+										<values arity="Scalar" type="String">
+											<value>[empty]</value>
+										</values>
+									</property>
+									<property>
+										<name>Annotations</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>232</value>
+															<value>710</value>
+															<value>454</value>
+															<value>718</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>130</value>
+															<value>595</value>
+															<value>273</value>
+															<value>609</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>358</value>
+															<value>595</value>
+															<value>501</value>
+															<value>609</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>258</value>
+															<value>583</value>
+															<value>401</value>
+															<value>595</value>
+														</values>
+													</property>
+												</values>
+											</property>
+										</values>
+									</property>
+								</values>
+							</property>
+							<property>
+								<name>Page</name>
+								<values arity="List" type="Property">
+									<property>
+										<name>Label</name>
+										<values arity="Scalar" type="String">
+											<value>[empty]</value>
+										</values>
+									</property>
+									<property>
+										<name>Annotations</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>312</value>
+															<value>397</value>
+															<value>436</value>
+															<value>410</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>402</value>
+															<value>253</value>
+															<value>472</value>
+															<value>267</value>
+														</values>
+													</property>
+												</values>
+											</property>
+										</values>
+									</property>
+								</values>
+							</property>
+							<property>
+								<name>Page</name>
+								<values arity="List" type="Property">
+									<property>
+										<name>Label</name>
+										<values arity="Scalar" type="String">
+											<value>[empty]</value>
+										</values>
+									</property>
+									<property>
+										<name>Annotations</name>
+										<values arity="List" type="Property">
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>447</value>
+															<value>731</value>
+															<value>488</value>
+															<value>745</value>
+														</values>
+													</property>
+												</values>
+											</property>
+											<property>
+												<name>Annotation</name>
+												<values arity="List" type="Property">
+													<property>
+														<name>Subtype</name>
+														<values arity="Scalar" type="String">
+															<value>Link</value>
+														</values>
+													</property>
+													<property>
+														<name>Rect</name>
+														<values arity="Array" type="Integer">
+															<value>140</value>
+															<value>393</value>
+															<value>184</value>
+															<value>406</value>
+														</values>
+													</property>
+												</values>
+											</property>
+										</values>
+									</property>
+								</values>
+							</property>
+						</values>
+					</property>
+				</values>
+			</property>
+		</properties>
+	</repInfo>
+</jhove>

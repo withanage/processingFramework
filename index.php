@@ -1,5 +1,5 @@
 <?php
 
 
-require_once('fileValidatorPlugin.php');
-return new fileValidatorPlugin();
+require_once('ValidationFrameworkPlugin.php');
+return new ValidationFrameworkPlugin();

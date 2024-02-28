@@ -12,12 +12,12 @@ Currently included open-source tools
 ### Installation
 ```bash
 cd $OJS/plugins/generic
-git clone https://github.com/withanage/fileValidator.git # or download
+git clone https://github.com/withanage/validationFramework.git # or download
 git checkout -b stable-3_3_0 # branch
 ```
 ### Configuration
 - Goto Website -> Plugins
-- Search fileValidator plugin under generic plugins
+- Search validationFramework plugin under generic plugins
 - Enable plugin
 - Got to settings
 - Enable jhove
@@ -25,7 +25,7 @@ git checkout -b stable-3_3_0 # branch
 
 
 ### Troubleshooting
-- Please file an [Issue](https://github.com/withanage/fileValidator/issues)
+- Please file an [Issue](https://github.com/withanage/validationFramework/issues)
 
 
 # Disclaimer

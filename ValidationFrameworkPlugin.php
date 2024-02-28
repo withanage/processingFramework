@@ -1,9 +1,9 @@
 <?php
 
 import('lib.pkp.classes.plugins.GenericPlugin');
-import('plugins.generic.fileValidator.classes.services.JHOVEValidator');
+import('plugins.generic.validationFramework.classes.services.JHOVEValidator');
 
-class fileValidatorPlugin extends GenericPlugin
+class ValidationFrameworkPlugin extends GenericPlugin
 {
 	public function register($category, $path, $mainContextId = NULL)
 	{
@@ -22,7 +22,7 @@ class fileValidatorPlugin extends GenericPlugin
 
 	public function getDescription()
 	{
-		return __('plugins.generic.fileValidator.description');
+		return __('plugins.generic.validationFramework.description');
 	}
 
 	public function getActions($request, $actionArgs)
@@ -56,7 +56,7 @@ class fileValidatorPlugin extends GenericPlugin
 
 	public function getDisplayName()
 	{
-		return __('plugins.generic.fileValidator.displayName');
+		return __('plugins.generic.validationFramework.displayName');
 	}
 
 	public function manage($args, $request)
@@ -64,8 +64,8 @@ class fileValidatorPlugin extends GenericPlugin
 		switch ($request->getUserVar('verb')) {
 			case 'settings':
 
-				$this->import('fileValidatorPluginSettingsForm');
-				$form = new fileValidatorPluginSettingsForm($this);
+				$this->import('ValidationFrameworkPluginSettingsForm');
+				$form = new ValidationFrameworkPluginSettingsForm($this);
 
 				if (!$request->getUserVar('save')) {
 					$form->initData();
@@ -88,7 +88,7 @@ class fileValidatorPlugin extends GenericPlugin
 	{
 		switch ($name) {
 			case 'enableJhove':
-				$config_value = Config::getVar('fileValidator', 'jhove');
+				$config_value = Config::getVar('validationFramework', 'jhove');
 				break;
 			default:
 				return parent::getSetting($contextId, $name);
@@ -131,17 +131,17 @@ class fileValidatorPlugin extends GenericPlugin
 				if (in_array(strtolower($fileExtension), static::getSupportedMimetypes()) && $accessAllowed &&
 					in_array($stageId, $this->getAllowedWorkflowStages()) && in_array($submissionStageId, $this->getAllowedWorkflowStages())) {
 
-					$this->fileValidatorAction($row, $dispatcher, $request, $submissionFile);
+					$this->validationFrameworkAction($row, $dispatcher, $request, $submissionFile);
 				}
 			}
 		}
 	}
-	private function fileValidatorAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile): void {
+	private function validationFrameworkAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile): void {
 
 		$submissionId = $submissionFile->getData('submissionId');
 		$stageId = (int) $request->getUserVar('stageId');
 
-		$path = $dispatcher->url($request, ROUTE_PAGE, null, 'fileValidator', 'validateFile', null,
+		$path = $dispatcher->url($request, ROUTE_PAGE, null, 'validationFramework', 'validateFile', null,
 			array(
 				'submissionId' => $submissionId,
 				'fileId' => $submissionFile->getData('fileId'),
@@ -158,7 +158,7 @@ class fileValidatorPlugin extends GenericPlugin
 		$linkAction = new LinkAction(
 			'parse',
 			new PostAndRedirectAction($path, $pathRedirect),
-			__('plugins.generic.fileValidator.links.fileValidate')
+			__('plugins.generic.validationFramework.links.fileValidate')
 		);
 		$row->addAction($linkAction);
 
@@ -174,10 +174,10 @@ class fileValidatorPlugin extends GenericPlugin
 		$op = $args[1];
 
 		switch ("$page/$op") {
-			case 'fileValidator/validateFile':
-				define('HANDLER_CLASS', 'fileValidatorHandler');
+			case 'validationFramework/validateFile':
+				define('HANDLER_CLASS', 'validationFrameworkHandler');
 				define('FILE_VALIDATOR_PLUGIN_NAME', $this->getName());
-				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'fileValidatorHandler.inc.php';
+				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'validationFrameworkHandler.inc.php';
 				break;
 		}
 
@@ -192,6 +192,7 @@ class fileValidatorPlugin extends GenericPlugin
 	public function getAllowedWorkflowStages() {
 		return [
 			WORKFLOW_STAGE_ID_EDITING,
+			WORKFLOW_STAGE_ID_SUBMISSION,
 			WORKFLOW_STAGE_ID_PRODUCTION
 		];
 	}

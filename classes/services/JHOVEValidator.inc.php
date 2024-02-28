@@ -3,7 +3,8 @@
 namespace services;
 use classes\Validator;
 
-import('plugins.generic.fileValidator.classes.Validator');
+
+import('plugins.generic.validationFramework.classes.Validator');
 
 class JHOVEValidator extends Validator
 {
@@ -21,16 +22,20 @@ class JHOVEValidator extends Validator
 		$retval=null;
 
 		try {
-			$command = $this->getToolPathName().'  -kr  PDF-hul '.$filePath;
+			$command = $this->getToolPathName().'  -kr -h xml -m pdf-hul '.$filePath;
 			exec($command, $output, $retval);
-			$this->output = $output;
+			$outputString = implode('', $output);
+			$this->output = $this->	formatResults($outputString);
 		}
 		catch (\Exception $e) {
-			print($e->getMessage());
+			$this->output = $e->getMessage();
 		}
 
 
 	}
+
+
+
 
 	public function getToolName(): string
 	{
@@ -40,5 +45,10 @@ class JHOVEValidator extends Validator
 	public function getToolExecutable(): string
 	{
 		return 'jhove';
+	}
+
+	public function formatResults(string $result): string
+	{
+		return $result;
 	}
 }

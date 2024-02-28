@@ -10,17 +10,17 @@
 <script type="text/javascript">
 
 	$(function() {ldelim}
-		$('#fileValidatorForm').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
+		$('#validationFrameworkForm').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
 	{rdelim})
 
 </script>
 
 
-<form class="pkp_form" id="fileValidatorForm" method="post" action="{url op="validateFile" submissionId=$submissionId stageId=$stageId fileStage=$fileStage submissionFileId=$submissionFileId}">
+<form class="pkp_form" id="validationFrameworkForm" method="post" action="{url op="validateFile" submissionId=$submissionId stageId=$stageId fileStage=$fileStage submissionFileId=$submissionFileId}">
 
     {csrf}
 
-	{fbvFormArea id="fileValidatorFormArea"}
+	{fbvFormArea id="validationFrameworkFormArea"}
 
     {fbvFormSection title=""}
 

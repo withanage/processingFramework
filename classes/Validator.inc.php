@@ -7,7 +7,7 @@ abstract class Validator
 	protected array $errors = [];
 	protected string $pluginToolsPath;
 
-	protected array $output;
+	protected string $output;
 
 	protected \Plugin $plugin;
 	public function __construct( \Plugin $plugin)
@@ -19,9 +19,12 @@ abstract class Validator
 	}
 	abstract public function run(string $filePath) : void;
 
-	public function getResult(): array{
+	public function getResult(): string{
+		$this->formatResults($this->output);
 	return  $this->output;
 	}
+	abstract public function formatResults(string $result) :string;
+
 	abstract public function getToolName(): string;
 	abstract public function getToolExecutable(): string;
 

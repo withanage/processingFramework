@@ -1,6 +1,6 @@
 <?php
 import('lib.pkp.classes.form.Form');
-class fileValidatorPluginSettingsForm extends Form
+class ValidationFrameworkPluginSettingsForm extends Form
 {
 	public $plugin;
 
