@@ -17,7 +17,7 @@ abstract class Validator
 
 
 	}
-	abstract public function run(string $filePath) : void;
+	abstract public function run(string $validatableObject) : void;
 
 	public function getResult(): string{
 		$this->formatResults($this->output);

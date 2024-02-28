@@ -6,7 +6,7 @@ import('classes.handler.Handler');
 import('lib.pkp.classes.file.PrivateFileManager');
 
 
-class validationFrameworkHandler extends Handler
+class ValidationFrameworkHandler extends Handler
 {
 
 	var $_submission = null;
@@ -43,8 +43,8 @@ class validationFrameworkHandler extends Handler
 	{
 		import('plugins.generic.validationFramework.controllers.grid.form.validationFrameworkForm');
 		$ValidationFrameworkForm = new ValidationFrameworkForm($request, $this->_plugin, $this->publication, $this->submission);
-		$validationFrameworkForm->initData();
-		return new JSONMessage(true, $validationFrameworkForm->fetch($request));
+		$ValidationFrameworkForm->initData();
+		return new JSONMessage(true, $ValidationFrameworkForm->fetch($request));
 	}
 	public  function validateFile($args, $request) {
 		$fileId = (int) $request->getUserVar('fileId');

@@ -16,13 +16,13 @@ class JHOVEValidator extends Validator
 	}
 
 
-	public function run($filePath)  : void
+	public function run($validatableObject)  : void
 	{
 		$output=null;
 		$retval=null;
 
 		try {
-			$command = $this->getToolPathName().'  -kr -h xml -m pdf-hul '.$filePath;
+			$command = $this->getToolPathName().'  -kr -h xml -m pdf-hul '.$validatableObject;
 			exec($command, $output, $retval);
 			$outputString = implode('', $output);
 			$this->output = $this->	formatResults($outputString);

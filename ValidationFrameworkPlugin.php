@@ -175,9 +175,9 @@ class ValidationFrameworkPlugin extends GenericPlugin
 
 		switch ("$page/$op") {
 			case 'validationFramework/validateFile':
-				define('HANDLER_CLASS', 'validationFrameworkHandler');
+				define('HANDLER_CLASS', 'ValidationFrameworkHandler');
 				define('FILE_VALIDATOR_PLUGIN_NAME', $this->getName());
-				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'validationFrameworkHandler.inc.php';
+				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'ValidationFrameworkHandler.inc.php';
 				break;
 		}
 
