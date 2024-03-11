@@ -6,7 +6,7 @@ import('classes.handler.Handler');
 import('lib.pkp.classes.file.PrivateFileManager');
 
 
-class ValidationFrameworkHandler extends Handler
+class ProcessingFrameworkHandler extends Handler
 {
 
 	var $_submission = null;
@@ -41,10 +41,10 @@ class ValidationFrameworkHandler extends Handler
 
 	public function PDFValidationForm($args, $request)
 	{
-		import('plugins.generic.validationFramework.controllers.grid.form.validationFrameworkForm');
-		$ValidationFrameworkForm = new ValidationFrameworkForm($request, $this->_plugin, $this->publication, $this->submission);
-		$ValidationFrameworkForm->initData();
-		return new JSONMessage(true, $ValidationFrameworkForm->fetch($request));
+		import('plugins.generic.processingFramework.controllers.grid.form.processingFrameworkForm');
+		$ProcessingFrameworkForm = new ProcessingFrameworkForm($request, $this->_plugin, $this->publication, $this->submission);
+		$ProcessingFrameworkForm->initData();
+		return new JSONMessage(true, $ProcessingFrameworkForm->fetch($request));
 	}
 	public  function validateFile($args, $request) {
 		$fileId = (int) $request->getUserVar('fileId');
@@ -59,9 +59,9 @@ class ValidationFrameworkHandler extends Handler
 
 		$fileManager = new PrivateFileManager();
 		$filePath = $fileManager->getBasePath() . '/' . $submissionFile->getData('path');
-		$tempFileName = tempnam(sys_get_temp_dir(), 'validationFramework');
+		$tempFileName = tempnam(sys_get_temp_dir(), 'processingFramework');
 		$jhoveValidator = new JHOVEValidator($this->_plugin);
-		$jhoveValidator->run($filePath);
+		$jhoveValidator->validate($filePath);
 		$results = $jhoveValidator->getResult();
 		file_put_contents($tempFileName, $results);
 

@@ -1,10 +1,25 @@
 <?php
 
-import('lib.pkp.classes.plugins.GenericPlugin');
-import('plugins.generic.validationFramework.classes.services.JHOVEValidator');
+namespace APP\plugins\generic\processingFramework;
 
-class ValidationFrameworkPlugin extends GenericPlugin
+use APP\facades\Repo;
+use APP\core\Services;
+use APP\core\Application;
+use APP\template\TemplateManager;
+use PKP\core\PKPString;
+use PKP\db\DAORegistry;
+use APP\plugins\generic;
+use PKP\plugins\Hook;
+use PKP\plugins\PluginRegistry;
+use PKP\submissionFile\SubmissionFile;
+use PKP\config\Config;
+
+import('plugins.generic.processingFramework.classes.services.JHOVEValidator');
+
+class ProcessingFrameworkPlugin extends GenericPlugin
 {
+
+
 	public function register($category, $path, $mainContextId = NULL)
 	{
 		$success = parent::register($category, $path);
@@ -22,7 +37,7 @@ class ValidationFrameworkPlugin extends GenericPlugin
 
 	public function getDescription()
 	{
-		return __('plugins.generic.validationFramework.description');
+		return __('plugins.generic.processingFramework.description');
 	}
 
 	public function getActions($request, $actionArgs)
@@ -56,7 +71,7 @@ class ValidationFrameworkPlugin extends GenericPlugin
 
 	public function getDisplayName()
 	{
-		return __('plugins.generic.validationFramework.displayName');
+		return __('plugins.generic.processingFramework.displayName');
 	}
 
 	public function manage($args, $request)
@@ -64,8 +79,8 @@ class ValidationFrameworkPlugin extends GenericPlugin
 		switch ($request->getUserVar('verb')) {
 			case 'settings':
 
-				$this->import('ValidationFrameworkPluginSettingsForm');
-				$form = new ValidationFrameworkPluginSettingsForm($this);
+				$this->import('ProcessingFrameworkPluginSettingsForm');
+				$form = new ProcessingFrameworkPluginSettingsForm($this);
 
 				if (!$request->getUserVar('save')) {
 					$form->initData();
@@ -88,7 +103,7 @@ class ValidationFrameworkPlugin extends GenericPlugin
 	{
 		switch ($name) {
 			case 'enableJhove':
-				$config_value = Config::getVar('validationFramework', 'jhove');
+				$config_value = Config::getVar('processingFramework', 'jhove');
 				break;
 			default:
 				return parent::getSetting($contextId, $name);
@@ -131,17 +146,17 @@ class ValidationFrameworkPlugin extends GenericPlugin
 				if (in_array(strtolower($fileExtension), static::getSupportedMimetypes()) && $accessAllowed &&
 					in_array($stageId, $this->getAllowedWorkflowStages()) && in_array($submissionStageId, $this->getAllowedWorkflowStages())) {
 
-					$this->validationFrameworkAction($row, $dispatcher, $request, $submissionFile);
+					$this->processingFrameworkAction($row, $dispatcher, $request, $submissionFile);
 				}
 			}
 		}
 	}
-	private function validationFrameworkAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile): void {
+	private function processingFrameworkAction($row, Dispatcher $dispatcher, PKPRequest $request, $submissionFile): void {
 
 		$submissionId = $submissionFile->getData('submissionId');
 		$stageId = (int) $request->getUserVar('stageId');
 
-		$path = $dispatcher->url($request, ROUTE_PAGE, null, 'validationFramework', 'validateFile', null,
+		$path = $dispatcher->url($request, ROUTE_PAGE, null, 'processingFramework', 'validateFile', null,
 			array(
 				'submissionId' => $submissionId,
 				'fileId' => $submissionFile->getData('fileId'),
@@ -158,7 +173,7 @@ class ValidationFrameworkPlugin extends GenericPlugin
 		$linkAction = new LinkAction(
 			'parse',
 			new PostAndRedirectAction($path, $pathRedirect),
-			__('plugins.generic.validationFramework.links.fileValidate')
+			__('plugins.generic.processingFramework.links.fileValidate')
 		);
 		$row->addAction($linkAction);
 
@@ -174,10 +189,10 @@ class ValidationFrameworkPlugin extends GenericPlugin
 		$op = $args[1];
 
 		switch ("$page/$op") {
-			case 'validationFramework/validateFile':
-				define('HANDLER_CLASS', 'ValidationFrameworkHandler');
+			case 'processingFramework/validateFile':
+				define('HANDLER_CLASS', 'ProcessingFrameworkHandler');
 				define('FILE_VALIDATOR_PLUGIN_NAME', $this->getName());
-				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'ValidationFrameworkHandler.inc.php';
+				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'ProcessingFrameworkHandler.inc.php';
 				break;
 		}
 
