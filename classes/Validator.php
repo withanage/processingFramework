@@ -6,9 +6,7 @@ abstract class Validator
 
 	protected array $errors = [];
 	protected string $pluginToolsPath;
-
 	protected string $output;
-
 	protected \Plugin $plugin;
 	public function __construct( \Plugin $plugin)
 	{

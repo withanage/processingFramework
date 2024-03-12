@@ -1,5 +1,5 @@
 <?php
- import('plugins.generic.processingFramework.ProcessingFrameworkPlugin');
-return new ProcessingFrameworkPlugin();
+require_once('ProcessingFrameworkPlugin.php');
+ return new ProcessingFrameworkPlugin();
 
 
