@@ -12,12 +12,13 @@ Currently included open-source tools
 ### Installation
 ```bash
 cd $OJS/plugins/generic
-git clone https://github.com/withanage/validationFramework.git # or download
+git clone https://github.com/withanage/processingFramework.git # or download
 git checkout -b stable-3_3_0 # branch
+composer install
 ```
 ### Configuration
 - Goto Website -> Plugins
-- Search validationFramework plugin under generic plugins
+- Search processingFramework plugin under generic plugins
 - Enable plugin
 - Got to settings
 - Enable jhove
@@ -25,7 +26,7 @@ git checkout -b stable-3_3_0 # branch
 
 
 ### Troubleshooting
-- Please file an [Issue](https://github.com/withanage/validationFramework/issues)
+- Please file an [Issue](https://github.com/withanage/processingFramework/issues)
 
 
 # Disclaimer

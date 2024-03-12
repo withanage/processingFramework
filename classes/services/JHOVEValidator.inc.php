@@ -1,10 +1,10 @@
 <?php
 
-namespace services;
-use classes\Validator;
+namespace ProcessingFramework;
+use ProcessingFramework\Validator;
 
 
-import('plugins.generic.validationFramework.classes.Validator');
+import('plugins.generic.processingFramework.classes.Validator');
 
 class JHOVEValidator extends Validator
 {
@@ -15,14 +15,13 @@ class JHOVEValidator extends Validator
 
 	}
 
-
-	public function run($validatableObject)  : void
+	public function validate($validatableObject)  : void
 	{
 		$output=null;
 		$retval=null;
 
 		try {
-			$command = $this->getToolPathName().'  -kr -h xml -m pdf-hul '.$validatableObject;
+			$command = $this->getLocalServicePath().'  -kr -h xml -m pdf-hul '.$validatableObject;
 			exec($command, $output, $retval);
 			$outputString = implode('', $output);
 			$this->output = $this->	formatResults($outputString);
@@ -31,18 +30,15 @@ class JHOVEValidator extends Validator
 			$this->output = $e->getMessage();
 		}
 
-
 	}
 
 
-
-
-	public function getToolName(): string
+	public function getServiceName(): string
 	{
 		return 'jhove';
 	}
 
-	public function getToolExecutable(): string
+	public function getServicePath(): string
 	{
 		return 'jhove';
 	}

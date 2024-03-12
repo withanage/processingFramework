@@ -1,21 +1,21 @@
 
-msgid "plugins.generic.validationFramework.displayName"
+msgid "plugins.generic.processingFramework.displayName"
 msgstr "Validation Framework Plugin"
 
-msgid "plugins.generic.validationFramework.description"
+msgid "plugins.generic.processingFramework.description"
 msgstr "This Plugin validates the file galley using jhove"
 
-msgid "plugins.generic.validationFramework.setting.description"
+msgid "plugins.generic.processingFramework.setting.description"
 msgstr "File validation settings"
 
-msgid "plugins.generic.validationFramework.setting.enableValidation"
+msgid "plugins.generic.processingFramework.setting.enableValidation"
 msgstr "Enable Validation"
 
-msgid "plugins.generic.validationFramework.links.fileValidate"
+msgid "plugins.generic.processingFramework.links.fileValidate"
 msgstr "Validate File"
 
-msgid "plugins.generic.validationFramework.validationFrameworkForm.title"
+msgid "plugins.generic.processingFramework.processingFrameworkForm.title"
 msgstr "File Validation Form"
 
-msgid "plugins.generic.validationFramework.setting.enableJhove.description"
+msgid "plugins.generic.processingFramework.setting.enableJhove.description"
 msgstr "Enable JHOVE"

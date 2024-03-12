@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace ProcessingFramework;
 abstract class Validator
 {
 
@@ -17,7 +17,7 @@ abstract class Validator
 
 
 	}
-	abstract public function run(string $validatableObject) : void;
+	abstract public function validate(string $validatableObject) : void;
 
 	public function getResult(): string{
 		$this->formatResults($this->output);
@@ -25,12 +25,12 @@ abstract class Validator
 	}
 	abstract public function formatResults(string $result) :string;
 
-	abstract public function getToolName(): string;
-	abstract public function getToolExecutable(): string;
+	abstract public function getServiceName(): string;
+	abstract public function getServicePath(): string;
 
-	public function getToolPathName()
+	public function getLocalServicePath() :string
 	{
-	return $this->pluginToolsPath.DIRECTORY_SEPARATOR.$this->getToolName().DIRECTORY_SEPARATOR.$this->getToolExecutable();
+	return $this->pluginToolsPath.DIRECTORY_SEPARATOR.$this->getServiceName().DIRECTORY_SEPARATOR.$this->getServicePath();
 	}
 
 	public function getErrors(): array

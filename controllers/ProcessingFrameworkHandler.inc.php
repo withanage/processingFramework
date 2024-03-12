@@ -1,6 +1,6 @@
 <?php
 
-use services\JHOVEValidator;
+use ProcessingFramework\JHOVEValidator;
 
 import('classes.handler.Handler');
 import('lib.pkp.classes.file.PrivateFileManager');

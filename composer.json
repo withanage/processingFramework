@@ -1,0 +1,11 @@
+{
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"ProcessingFramework\\class\\": "classes",
+			"ProcessingFramework\\interface\\": "interfaces",
+			"ProcessingFramework\\": "ProcessingFramework"
+					}
+	}
+
+}

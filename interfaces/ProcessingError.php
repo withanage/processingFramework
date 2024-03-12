@@ -1,5 +1,5 @@
 <?php
-namespace  ProcessingError
+namespace  ProcessingFramework;
 interface ProcessingError{
 	public function getErrorName():string;
 
