@@ -3,7 +3,7 @@
 require_once(__DIR__ . '/vendor/autoload.php');
 
 use APP\facades\Repo;
-use APP\core\Services;
+
 use APP\core\Application;
 use APP\template\TemplateManager;
 use PKP\core\PKPString;
@@ -14,7 +14,7 @@ use PKP\plugins\PluginRegistry;
 use PKP\submissionFile\SubmissionFile;
 use PKP\config\Config;
 import('lib.pkp.classes.plugins.GenericPlugin');
-#import('plugins.generic.processingFramework.classes.services.JHOVEValidator');
+
 
 class ProcessingFrameworkPlugin extends GenericPlugin
 {

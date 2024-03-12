@@ -1,6 +1,6 @@
 <?php
 
-namespace ProcessingFramework;
+
 abstract class Validator
 {
 

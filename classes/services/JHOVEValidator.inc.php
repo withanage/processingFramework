@@ -1,10 +1,9 @@
 <?php
 
-namespace ProcessingFramework;
-use ProcessingFramework\Validator;
 
 
-import('plugins.generic.processingFramework.classes.Validator');
+
+
 
 class JHOVEValidator extends Validator
 {
