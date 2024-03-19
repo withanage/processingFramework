@@ -1,9 +1,10 @@
 {
 	"autoload": {
 		"psr-4": {
-			"APP\\plugins\\generic\\ProcessingFramework\\classes\\": "classes/",
-			"APP\\plugins\\generic\\ProcessingFramework\\controllers\\": "controllers/",
-			"APP\\plugins\\generic\\ProcessingFramework\\interfaces\\": "interfaces/"
+			"APP\\plugins\\generic\\processingFramework\\classes\\": "classes/",
+			"APP\\plugins\\generic\\processingFramework\\controllers\\": "controllers/",
+			"APP\\plugins\\generic\\processingFramework\\interfaces\\": "interfaces/",
+			"APP\\plugins\\generic\\processingFramework\\services\\": "services/"
 		}
 	}
 }

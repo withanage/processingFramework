@@ -26,7 +26,7 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		if ($success && $this->getEnabled()) {
 
-			HookRegistry::register('Publication::validatePublish', [$this, 'validate']);
+			HookRegistry::register('\Publication::validatePublish', [$this, 'validate']);
 			HookRegistry::register('LoadHandler', array($this, 'callbackLoadHandler'));
 			HookRegistry::register('TemplateManager::fetch', array($this, 'templateFetchCallback'));
 			$this->_registerTemplateResource();
@@ -34,6 +34,7 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		return $success;
 	}
+
 
 	public function getDescription()
 	{

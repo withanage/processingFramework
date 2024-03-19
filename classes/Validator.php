@@ -10,9 +10,7 @@ abstract class Validator
 	protected \Plugin $plugin;
 	public function __construct( \Plugin $plugin)
 	{
-
 		$this->pluginToolsPath = \Core::getBaseDir().DIRECTORY_SEPARATOR.$plugin->getPluginPath().DIRECTORY_SEPARATOR.'bin';
-
 
 	}
 	abstract public function validate(string $validatableObject) : void;
