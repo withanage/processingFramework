@@ -1,6 +1,7 @@
 <?php
 
-require_once(__DIR__ . '/vendor/autoload.php');
+
+
 
 use APP\facades\Repo;
 
@@ -8,12 +9,9 @@ use APP\core\Application;
 use APP\template\TemplateManager;
 use PKP\core\PKPString;
 use PKP\db\DAORegistry;
-use APP\plugins\generic;
-use PKP\plugins\Hook;
-use PKP\plugins\PluginRegistry;
 use PKP\submissionFile\SubmissionFile;
 use PKP\config\Config;
-import('lib.pkp.classes.plugins.GenericPlugin');
+use PKP\plugins;
 
 
 class ProcessingFrameworkPlugin extends GenericPlugin
@@ -193,7 +191,7 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 			case 'processingFramework/validateFile':
 				define('HANDLER_CLASS', 'ProcessingFrameworkHandler');
 				define('FILE_VALIDATOR_PLUGIN_NAME', $this->getName());
-				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'ProcessingFrameworkHandler.inc.php';
+				$args[2] = $this->getPluginPath() .DIRECTORY_SEPARATOR.'controllers'.DIRECTORY_SEPARATOR. 'ProcessingFrameworkHandler.php';
 				break;
 		}
 
