@@ -1,22 +1,22 @@
 <?php
 
-
+namespace APP\plugins\generic\processingFramework;
 
 
 use APP\facades\Repo;
-
+use APP\core\Services;
 use APP\core\Application;
 use APP\template\TemplateManager;
 use PKP\core\PKPString;
 use PKP\db\DAORegistry;
+use PKP\plugins\Hook;
+use PKP\plugins\PluginRegistry;
+use PKP\search\SearchFileParser;
 use PKP\submissionFile\SubmissionFile;
 use PKP\config\Config;
-use PKP\plugins;
 
 
-class ProcessingFrameworkPlugin extends GenericPlugin
-{
-
+class ProcessingFrameworkPlugin extends  \GenericPlugin {
 
 	public function register($category, $path, $mainContextId = NULL)
 	{
@@ -33,12 +33,10 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 		return $success;
 	}
 
-
 	public function getDescription()
 	{
 		return __('plugins.generic.processingFramework.description');
 	}
-
 	public function getActions($request, $actionArgs)
 	{
 
@@ -67,12 +65,10 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		return $actions;
 	}
-
 	public function getDisplayName()
 	{
 		return __('plugins.generic.processingFramework.displayName');
 	}
-
 	public function manage($args, $request)
 	{
 		switch ($request->getUserVar('verb')) {
@@ -94,10 +90,6 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 		}
 		return parent::manage($args, $request);
 	}
-
-
-
-
 	function getSetting($contextId, $name)
 	{
 		switch ($name) {
@@ -110,7 +102,6 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		return $config_value ?: parent::getSetting($contextId, $name);
 	}
-
 	public function templateFetchCallback($hookName, $params)
 	{
 
@@ -179,9 +170,6 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 
 	}
-
-
-
 	public function callbackLoadHandler($hookName, $args) {
 
 		$page = $args[0];
@@ -197,8 +185,6 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		return false;
 	}
-
-
 	public function getSupportedMimeTypes():  array
 	{
 		return  array('application/pdf');

@@ -1,10 +1,8 @@
 <?php
 
-use ProcessingFramework\JHOVEValidator;
 
 import('classes.handler.Handler');
 import('lib.pkp.classes.file.PrivateFileManager');
-
 
 class ProcessingFrameworkHandler extends Handler
 {
