@@ -1,6 +1,7 @@
 <?php
 
-namespace APP\plugins\generic\processingFramework\classes;
+import ('plugins.generic.processingFramework.classes.Validator');
+
 class JHOVEValidator extends Validator
 {
 
@@ -20,7 +21,7 @@ class JHOVEValidator extends Validator
 			exec($command, $output, $retval);
 			$outputString = implode('', $output);
 			$this->output = $this->formatResults($outputString);
-		} catch (\Exception $e) {
+		} catch (Exception $e) {
 			$this->output = $e->getMessage();
 		}
 
