@@ -47,7 +47,7 @@ class JHOVEValidator extends Validator
 		return 'jhove';
 	}
 
-	public function formatResults($input): FormattedResults
+	public function formatResults($input): array
 	{
 		$jhoveOutput = new  JHOVEFormattedResults($input);
     	return $jhoveOutput->getResults();

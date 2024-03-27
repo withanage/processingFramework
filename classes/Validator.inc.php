@@ -20,7 +20,7 @@ abstract class Validator
 		$this->formatResults($this->output);
 	return  $this->output;
 	}
-	abstract public function formatResults(string $input) :FormattedResults;
+	abstract public function formatResults(string $input) : array;
 
 	abstract public function getServiceName(): string;
 	abstract public function getServicePath(): string;

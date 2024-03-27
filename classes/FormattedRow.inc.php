@@ -9,7 +9,7 @@
 	 private $message;
 	 private $time;
 
-	 public function __construct(string $info, string $message, \traits\DateTime $time) {
+	 public function __construct(string $info, string $message,  $time) {
 
 		 $this->info = $info;
 
