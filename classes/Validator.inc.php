@@ -1,8 +1,9 @@
 <?php
 
+import ('plugins.generic.processingFramework.classes.FormattedResults');
 
 abstract class Validator
-{
+ {
 
 	protected array $errors = [];
 	protected string $pluginToolsPath;
@@ -13,13 +14,13 @@ abstract class Validator
 		$this->pluginToolsPath = \Core::getBaseDir().DIRECTORY_SEPARATOR.$plugin->getPluginPath().DIRECTORY_SEPARATOR.'bin';
 
 	}
-	abstract public function validate(string $validatableObject) : void;
+	abstract public function validate(string $validatableObject) : bool;
 
 	public function getResult(): string{
 		$this->formatResults($this->output);
 	return  $this->output;
 	}
-	abstract public function formatResults(string $result) :string;
+	abstract public function formatResults(string $input) :FormattedResults;
 
 	abstract public function getServiceName(): string;
 	abstract public function getServicePath(): string;

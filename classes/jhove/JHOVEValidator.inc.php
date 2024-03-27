@@ -1,8 +1,15 @@
 <?php
 
-import ('plugins.generic.processingFramework.classes.Validator');
+
+namespace jhove;
+use FormattedResults;
+use Validator;
+
+import('plugins.generic.processingFramework.classes.Validator');
+import('plugins.generic.processingFramework.classes.jhove.JHOVEFormattedResults');
 
 class JHOVEValidator extends Validator
+
 {
 
 	public function __construct($plugin)
@@ -11,7 +18,7 @@ class JHOVEValidator extends Validator
 
 	}
 
-	public function validate($validatableObject): void
+	public function validate($validatableObject): bool
 	{
 		$output = null;
 		$retval = null;
@@ -19,10 +26,12 @@ class JHOVEValidator extends Validator
 		try {
 			$command = $this->getLocalServicePath() . '  -kr -h xml -m pdf-hul ' . $validatableObject;
 			exec($command, $output, $retval);
-			$outputString = implode('', $output);
-			$this->output = $this->formatResults($outputString);
+			$this->output = implode(' ', $output);
+			return true;
+
 		} catch (Exception $e) {
 			$this->output = $e->getMessage();
+			return false;
 		}
 
 	}
@@ -38,8 +47,12 @@ class JHOVEValidator extends Validator
 		return 'jhove';
 	}
 
-	public function formatResults(string $result): string
+	public function formatResults($input): FormattedResults
 	{
-		return $result;
+		$jhoveOutput = new  JHOVEFormattedResults($input);
+    	return $jhoveOutput->getResults();
+
 	}
+
+
 }

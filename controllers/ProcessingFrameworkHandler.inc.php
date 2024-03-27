@@ -1,9 +1,11 @@
 <?php
 
 
+use jhove\JHOVEValidator;
+
 import('classes.handler.Handler');
 import('lib.pkp.classes.file.PrivateFileManager');
-import('plugins.generic.processingFramework.classes.JHOVEValidator');
+import('plugins.generic.processingFramework.classes.jhove.JHOVEValidator');
 
 
 class ProcessingFrameworkHandler extends Handler
@@ -58,7 +60,7 @@ class ProcessingFrameworkHandler extends Handler
 		$genreId = $submissionFile->getData('genreId');
 
 		$fileManager = new PrivateFileManager();
-		$filePath = $fileManager->getBasePath() . '.' . $submissionFile->getData('path');
+		$filePath = $fileManager->getBasePath() . DIRECTORY_SEPARATOR . $submissionFile->getData('path');
 		$tempFileName = tempnam(sys_get_temp_dir(), 'processingFramework');
 		$jhoveValidator = new  JHOVEValidator(($this->_plugin));
 		$jhoveValidator->validate($filePath);
