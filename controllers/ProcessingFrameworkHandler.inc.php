@@ -63,9 +63,11 @@ class ProcessingFrameworkHandler extends Handler
 		$filePath = $fileManager->getBasePath() . DIRECTORY_SEPARATOR . $submissionFile->getData('path');
 		$tempFileName = tempnam(sys_get_temp_dir(), 'processingFramework');
 		$jhoveValidator = new  JHOVEValidator(($this->_plugin));
-		$jhoveValidator->validate($filePath);
-		$results = $jhoveValidator->getResult();
-		file_put_contents($tempFileName, $results);
+		$jhoveValidator->executeCommand($filePath);
+		$results = $jhoveValidator->getFormattedResults($jhoveValidator->getOutput());
+		$markDownResult= $results->getMarkdownRows();
+
+		file_put_contents($tempFileName, $markDownResult);
 
 		$submissionDir = Services::get('submissionFile')->getSubmissionDir($submission->getData('contextId'), $submissionId);
 		$newFileId = Services::get('file')->add(

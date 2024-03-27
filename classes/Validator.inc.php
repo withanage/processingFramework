@@ -8,19 +8,23 @@ abstract class Validator
 	protected array $errors = [];
 	protected string $pluginToolsPath;
 	protected string $output;
+	protected FormattedResults $formattedResults;
+
+	public function getOutput(): string
+	{
+		return $this->output;
+	}
 	protected \Plugin $plugin;
 	public function __construct( \Plugin $plugin)
 	{
 		$this->pluginToolsPath = \Core::getBaseDir().DIRECTORY_SEPARATOR.$plugin->getPluginPath().DIRECTORY_SEPARATOR.'bin';
 
 	}
-	abstract public function validate(string $validatableObject) : bool;
+	abstract public function executeCommand(string $validatableObject) : bool;
 
-	public function getResult(): string{
-		$this->formatResults($this->output);
-	return  $this->output;
-	}
-	abstract public function formatResults(string $input) : array;
+	abstract public function getFormattedResults(string $input): \FormattedResults;
+
+
 
 	abstract public function getServiceName(): string;
 	abstract public function getServicePath(): string;

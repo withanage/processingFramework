@@ -2,11 +2,11 @@
 
 
 namespace jhove;
-use FormattedResults;
 use Validator;
 
 import('plugins.generic.processingFramework.classes.Validator');
 import('plugins.generic.processingFramework.classes.jhove.JHOVEFormattedResults');
+import ('plugins.generic.processingFramework.classes.FormattedResults');
 
 class JHOVEValidator extends Validator
 
@@ -18,7 +18,7 @@ class JHOVEValidator extends Validator
 
 	}
 
-	public function validate($validatableObject): bool
+	public function executeCommand($validatableObject): bool
 	{
 		$output = null;
 		$retval = null;
@@ -47,12 +47,13 @@ class JHOVEValidator extends Validator
 		return 'jhove';
 	}
 
-	public function formatResults($input): array
+	public function getFormattedResults($input): \FormattedResults
 	{
-		$jhoveOutput = new  JHOVEFormattedResults($input);
-    	return $jhoveOutput->getResults();
-
+		$formattedResults = new  JHOVEFormattedResults($input);
+		return $formattedResults;
 	}
+
+
 
 
 }

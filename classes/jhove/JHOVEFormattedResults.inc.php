@@ -15,12 +15,11 @@ class JHOVEFormattedResults extends  FormattedResults
 	public function __construct(string $input)
 
 	{
-		$this->input = $input;
-
+		parent::__construct($input);
 	}
 
 
-	function getResults(): array
+	function createRows(): void
 	{
 
 		$xml = new DOMDocument();
@@ -31,9 +30,10 @@ class JHOVEFormattedResults extends  FormattedResults
 			$markdown .= $this->xmlNodeToString($node);
 		}
 
-	  $resultRow  = new \FormattedRow('INFO',$markdown,time());
+	   $resultRow  = new \FormattedRow('INFO',$markdown,time());
+	  	$this->addRow($resultRow);
 
-		return [$resultRow];
+
 	}
 
 
