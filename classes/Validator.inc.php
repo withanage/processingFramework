@@ -1,7 +1,7 @@
 <?php
 
 import ('plugins.generic.processingFramework.classes.FormattedResults');
-
+import('lib.pkp.classes.file.PrivateFileManager');
 abstract class Validator
  {
 
@@ -18,7 +18,11 @@ abstract class Validator
 	public function __construct( \Plugin $plugin, string $filePath)
 	{
 		$this->pluginToolsPath = \Core::getBaseDir().DIRECTORY_SEPARATOR.$plugin->getPluginPath().DIRECTORY_SEPARATOR.'bin';
-		$this->executeCommand($filePath);
+		$fileManager = new PrivateFileManager();
+		$fullPath = $fileManager->getBasePath() . DIRECTORY_SEPARATOR .$filePath;
+		if(in_array(mime_content_type($fullPath),$this->getSupportedMimeTypes())){
+			$this->executeCommand($filePath);
+		}
 
 	}
 	abstract public function executeCommand(string $validatableObject) : bool;

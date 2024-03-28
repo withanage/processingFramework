@@ -5,7 +5,7 @@ use jhove\JHOVEValidator;
 use jhove\JHOVEFormattedResults;
 
 import('classes.handler.Handler');
-import('lib.pkp.classes.file.PrivateFileManager');
+
 import('plugins.generic.processingFramework.classes.jhove.JHOVEValidator');
 import('plugins.generic.processingFramework.classes.jhove.JHOVEFormattedResults');
 
@@ -61,10 +61,10 @@ class ProcessingFrameworkHandler extends Handler
 		$submission = Services::get('submission')->get($submissionId);
 		$genreId = $submissionFile->getData('genreId');
 
-		$fileManager = new PrivateFileManager();
-		$filePath = $fileManager->getBasePath() . DIRECTORY_SEPARATOR . $submissionFile->getData('path');
+
+
 		$tempFileName = tempnam(sys_get_temp_dir(), 'processingFramework');
-		$jhoveValidator = new  JHOVEValidator($this->_plugin, $filePath);
+		$jhoveValidator = new  JHOVEValidator($this->_plugin,  $submissionFile->getData('path'));
 		$results = new JHOVEFormattedResults($jhoveValidator->getOutput(), $jhoveValidator->getErrors());
 
 		$markDownResult= $results->getMarkdownRows();

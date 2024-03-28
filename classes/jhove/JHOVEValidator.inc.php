@@ -35,12 +35,7 @@ class JHOVEValidator extends Validator
 			return true;
 		} else {
 			$this->output = PF_ERROR.''.$command;
-			$this->errors[] = __('plugins.generic.processingFramework.notification.service_application_error');
-
-			$notificationManager = new \NotificationManager();
-			$notificationManager->createTrivialNotification(
-				\Application::get()->getRequest()->getUser(), NOTIFICATION_TYPE_ERROR,
-				array('contents' => __('plugins.generic.processingFramework.notification.service_application_error')));
+			$this->errors[] = __('plugins.generic.processingFramework.notification.jhove_application_error');
 			return false;
 
 		}

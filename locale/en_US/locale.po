@@ -20,5 +20,5 @@ msgstr "File Validation Form"
 msgid "plugins.generic.processingFramework.setting.enableJhove.description"
 msgstr "Enable JHOVE"
 
-msgid "plugins.generic.processingFramework.notification.service_application_error"
-msgstr "Service or application error"
+msgid "plugins.generic.processingFramework.notification.jhove_application_error"
+msgstr "JHOVE exectution  error"
