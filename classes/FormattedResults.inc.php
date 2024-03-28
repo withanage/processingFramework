@@ -5,10 +5,18 @@ abstract class FormattedResults
 {
 	protected string $input;
 	private $rows = [];
-	public function __construct(string $input)
+
+	protected array $errors = [];
+
+	public function getErrors(): array
+	{
+		return $this->errors;
+	}
+	public function __construct(string $input, array $errors)
 
 	{
 		$this->input = $input;
+		$this->errors = $errors;
 		$this->createRows();
 
 	}

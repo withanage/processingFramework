@@ -9,34 +9,39 @@ use FormattedResults;
 
 class JHOVEFormattedResults extends  FormattedResults
 {
-	protected string $input;
+
+
 	protected array $results;
 
-	public function __construct(string $input)
+	public function __construct(string $input, array $errors)
 
 	{
-		parent::__construct($input);
+		parent::__construct($input, $errors);
 	}
-
 
 	function createRows(): void
 	{
-
-		$xml = new DOMDocument();
-		$xml->loadXML($this->input);
 		$markdown = '';
 
-		foreach ($xml->documentElement->childNodes as $node) {
-			$markdown .= $this->xmlNodeToString($node);
+		if ($this->errors) {
+			foreach ($this->errors as $error){
+				$markdown.=  $error;
+			}
 		}
+		else {
+			$xml = new DOMDocument();
+			$xml->loadXML($this->input);
 
-	   $resultRow  = new \FormattedRow(PF_INFO,$markdown);
-	  	$this->addRow($resultRow);
+			foreach ($xml->documentElement->childNodes as $node) {
+				$markdown .= $this->xmlNodeToString($node);
+			}
+
+		}
+		$resultRow = new \FormattedRow(PF_INFO, $markdown);
+		$this->addRow($resultRow);
 
 
 	}
-
-
 
 	function xmlNodeToString($node, $level = 0) :string {
 		$markdown = '';

@@ -23,15 +23,21 @@ class JHOVEValidator extends Validator
 		$output = null;
 		$retval = null;
 
-		try {
 			$command = $this->getLocalServicePath() . '  -kr -h xml -m pdf-hul ' . $validatableObject;
 			exec($command, $output, $retval);
 			$this->output = implode(' ', $output);
+		if ($retval == 0) {
 			return true;
+		} else {
+			$this->output = PF_ERROR.''.$command;
+			$this->errors[] = __('plugins.generic.processingFramework.notification.service_application_error');
 
-		} catch (Exception $e) {
-			$this->output = $e->getMessage();
+			$notificationManager = new \NotificationManager();
+			$notificationManager->createTrivialNotification(
+				\Application::get()->getRequest()->getUser(), NOTIFICATION_TYPE_ERROR,
+				array('contents' => __('plugins.generic.processingFramework.notification.service_application_error')));
 			return false;
+
 		}
 
 	}
@@ -47,11 +53,6 @@ class JHOVEValidator extends Validator
 		return 'jhove';
 	}
 
-	public function getFormattedResults($input): \FormattedResults
-	{
-		$formattedResults = new  JHOVEFormattedResults($input);
-		return $formattedResults;
-	}
 
 
 

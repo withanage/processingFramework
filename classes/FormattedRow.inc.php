@@ -22,10 +22,6 @@
 		 return $this->message;
 	 }
 
-	 public function setMessage(string $message): void
-	 {
-		 $this->message = $message;
-	 }
 
 	 public function getTime()
 	 {

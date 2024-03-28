@@ -22,9 +22,6 @@ abstract class Validator
 	}
 	abstract public function executeCommand(string $validatableObject) : bool;
 
-	abstract public function getFormattedResults(string $input): \FormattedResults;
-
-
 
 	abstract public function getServiceName(): string;
 	abstract public function getServicePath(): string;
