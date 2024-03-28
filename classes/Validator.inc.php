@@ -7,7 +7,7 @@ abstract class Validator
 
 	protected array $errors = [];
 	protected string $pluginToolsPath;
-	protected string $output;
+	protected string $output = '';
 	protected FormattedResults $formattedResults;
 
 	public function getOutput(): string
@@ -25,6 +25,7 @@ abstract class Validator
 
 	abstract public function getServiceName(): string;
 	abstract public function getServicePath(): string;
+	abstract public function getSupportedMimeTypes(): array;
 
 	public function getLocalServicePath() :string
 	{

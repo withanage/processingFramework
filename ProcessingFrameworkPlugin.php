@@ -12,7 +12,11 @@ use PKP\plugins\Hook;
 use PKP\plugins\PluginRegistry;
 use PKP\submissionFile\SubmissionFile;
 use PKP\config\Config;
+use jhove\JHOVEValidator;
+
+
 import('lib.pkp.classes.plugins.GenericPlugin');
+import('plugins.generic.processingFramework.classes.jhove.JHOVEValidator');
 
 define('PF_INFO', "INFO");
 define('PF_ERROR', "ERROR");
@@ -27,10 +31,11 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		if ($success && $this->getEnabled()) {
 
-			HookRegistry::register('\Publication::validatePublish', [$this, 'validate']);
+			HookRegistry::register('Publication::validatePublish', [$this, 'validate']);
 			HookRegistry::register('LoadHandler', array($this, 'callbackLoadHandler'));
 			HookRegistry::register('TemplateManager::fetch', array($this, 'templateFetchCallback'));
 			$this->_registerTemplateResource();
+
 		}
 
 		return $success;
@@ -212,6 +217,24 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 			WORKFLOW_STAGE_ID_SUBMISSION,
 			WORKFLOW_STAGE_ID_PRODUCTION
 		];
+	}
+
+	function validate($hookName, $args)
+	{
+		$errors =& $args[0];
+		$publication = $args[1];
+		$galleys = $publication->getData('galleys');
+
+		foreach ($galleys as $galley) {
+			$galleyFile = $galley->getFile();
+			$jhoveValidator = new  JHOVEValidator($this, $galleyFile->getData('path'));
+			foreach($jhoveValidator->getErrors() as $error) {
+				$errors['jhoveValidator'] = $error;
+			}
+		}
+
+		return false;
+
 	}
 
 }

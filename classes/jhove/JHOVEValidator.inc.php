@@ -12,10 +12,15 @@ class JHOVEValidator extends Validator
 
 {
 
+
 	public function __construct($plugin, $filePath)
 	{
 		parent::__construct($plugin, $filePath);
 
+	}
+	public function getSupportedMimeTypes():  array
+	{
+		return  array('application/pdf');
 	}
 
 	public function executeCommand($validatableObject): bool
