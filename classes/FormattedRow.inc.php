@@ -32,20 +32,17 @@
 		 return $this->time;
 	 }
 
-	 public function setTime($time): void
-	 {
-		 $this->time = $time;
-	 }
+
 	 private $message;
 	 private $time;
 
-	 public function __construct(string $info, string $message,  $time) {
+	 public function __construct(string $info, string $message) {
 
 		 $this->info = $info;
 
 		 $this->message = $message;
 
-		 $this->time = $time;
+		 $this->time = date("Y-m-d H:i:s");
 
 	 }
 

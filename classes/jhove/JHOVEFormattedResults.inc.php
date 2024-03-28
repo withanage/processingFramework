@@ -30,7 +30,7 @@ class JHOVEFormattedResults extends  FormattedResults
 			$markdown .= $this->xmlNodeToString($node);
 		}
 
-	   $resultRow  = new \FormattedRow('INFO',$markdown,time());
+	   $resultRow  = new \FormattedRow(PF_INFO,$markdown);
 	  	$this->addRow($resultRow);
 
 
@@ -41,7 +41,7 @@ class JHOVEFormattedResults extends  FormattedResults
 	function xmlNodeToString($node, $level = 0) :string {
 		$markdown = '';
 
-		// Handle different types of nodes
+
 		switch ($node->nodeType) {
 			case XML_ELEMENT_NODE:
 				$tagName = $node->tagName;
@@ -50,6 +50,9 @@ class JHOVEFormattedResults extends  FormattedResults
 						foreach ($node->childNodes as $child) {
 							$markdown .= $this->xmlNodeToString($child, $level);
 						}
+						break;
+					case 'reportingModule':
+						$markdown .= "Module: " . $node->nodeValue . "  ";
 						break;
 					case 'version':
 						$markdown .= "PDF version: " . $node->nodeValue . "  ";
@@ -61,16 +64,13 @@ class JHOVEFormattedResults extends  FormattedResults
 						break;
 				}
 
-				// Process child nodes recursively
 				foreach ($node->childNodes as $child) {
 					$markdown .= $this->xmlNodeToString($child, $level + 1);
 				}
 				break;
 			case XML_TEXT_NODE:
-				// Ignore text nodes
 				break;
 			default:
-				// Handle other types of nodes here if needed
 				break;
 		}
 

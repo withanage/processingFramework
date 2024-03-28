@@ -14,7 +14,9 @@ use PKP\submissionFile\SubmissionFile;
 use PKP\config\Config;
 import('lib.pkp.classes.plugins.GenericPlugin');
 
-
+define('PF_INFO', "INFO");
+define('PF_ERROR', "ERROR");
+define('PF_WARNING', "WARNING");
 class ProcessingFrameworkPlugin extends GenericPlugin
 {
 

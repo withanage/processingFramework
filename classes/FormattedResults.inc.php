@@ -27,12 +27,12 @@ abstract class FormattedResults
 	public function getMarkdownRows(): string
 
 	{
-		$markdown = '';
+		$markdown = '|';
 		$rows = $this->getRows();
 		foreach ($rows as $formattedRow) {
+			$markdown.= $formattedRow->getTime().'|';
 			$markdown.= $formattedRow->getInfo().'|';
 			$markdown.= $formattedRow->getMessage().'|';
-			$markdown.= $formattedRow->getTime().'|';
 		}
 		return  $markdown;
 
