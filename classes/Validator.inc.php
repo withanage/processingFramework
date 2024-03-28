@@ -15,13 +15,13 @@ abstract class Validator
 		return $this->output;
 	}
 	protected \Plugin $plugin;
-	public function __construct( \Plugin $plugin)
+	public function __construct( \Plugin $plugin, string $filePath)
 	{
 		$this->pluginToolsPath = \Core::getBaseDir().DIRECTORY_SEPARATOR.$plugin->getPluginPath().DIRECTORY_SEPARATOR.'bin';
+		$this->executeCommand($filePath);
 
 	}
 	abstract public function executeCommand(string $validatableObject) : bool;
-
 
 	abstract public function getServiceName(): string;
 	abstract public function getServicePath(): string;

@@ -3,9 +3,12 @@
 namespace jhove;
 
 import('plugins.generic.processingFramework.classes.FormattedResults');
+import('plugins.generic.processingFramework.classes.utils.xmlUtils');
 
 use DOMDocument;
 use FormattedResults;
+use xmlUtils;
+
 
 class JHOVEFormattedResults extends  FormattedResults
 {
@@ -33,7 +36,7 @@ class JHOVEFormattedResults extends  FormattedResults
 			$xml->loadXML($this->input);
 
 			foreach ($xml->documentElement->childNodes as $node) {
-				$markdown .= $this->xmlNodeToString($node);
+				$markdown .= xmlUtils::xmlNodeToString($node);
 			}
 
 		}
@@ -43,42 +46,4 @@ class JHOVEFormattedResults extends  FormattedResults
 
 	}
 
-	function xmlNodeToString($node, $level = 0) :string {
-		$markdown = '';
-
-
-		switch ($node->nodeType) {
-			case XML_ELEMENT_NODE:
-				$tagName = $node->tagName;
-				switch ($tagName) {
-					case 'jhove':
-						foreach ($node->childNodes as $child) {
-							$markdown .= $this->xmlNodeToString($child, $level);
-						}
-						break;
-					case 'reportingModule':
-						$markdown .= "Module: " . $node->nodeValue . "  ";
-						break;
-					case 'version':
-						$markdown .= "PDF version: " . $node->nodeValue . "  ";
-						break;
-					case 'status':
-						$markdown .= "Status: " . $node->nodeValue . "  ";
-						break;
-					default:
-						break;
-				}
-
-				foreach ($node->childNodes as $child) {
-					$markdown .= $this->xmlNodeToString($child, $level + 1);
-				}
-				break;
-			case XML_TEXT_NODE:
-				break;
-			default:
-				break;
-		}
-
-		return $markdown;
-	}
 }

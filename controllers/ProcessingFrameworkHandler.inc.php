@@ -64,8 +64,8 @@ class ProcessingFrameworkHandler extends Handler
 		$fileManager = new PrivateFileManager();
 		$filePath = $fileManager->getBasePath() . DIRECTORY_SEPARATOR . $submissionFile->getData('path');
 		$tempFileName = tempnam(sys_get_temp_dir(), 'processingFramework');
-		$jhoveValidator = new  JHOVEValidator(($this->_plugin));
-		$jhoveValidator->executeCommand($filePath);
+		$jhoveValidator = new  JHOVEValidator($this->_plugin, $filePath);
+
 
 		$results = new JHOVEFormattedResults($jhoveValidator->getOutput(), $jhoveValidator->getErrors());
 		$markDownResult= $results->getMarkdownRows();

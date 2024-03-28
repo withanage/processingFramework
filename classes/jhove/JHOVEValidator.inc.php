@@ -12,9 +12,9 @@ class JHOVEValidator extends Validator
 
 {
 
-	public function __construct($plugin)
+	public function __construct($plugin, $filePath)
 	{
-		parent::__construct($plugin);
+		parent::__construct($plugin, $filePath);
 
 	}
 
