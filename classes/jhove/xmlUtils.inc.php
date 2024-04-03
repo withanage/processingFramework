@@ -1,11 +1,14 @@
 <?php
 
+namespace jhove;
 class xmlUtils
 {
+	protected static string $status='';
 
 	public static function xmlNodeToString($node, $level = 0): string
 	{
 		$markdown = '';
+
 
 
 		switch ($node->nodeType) {
@@ -24,7 +27,9 @@ class xmlUtils
 						$markdown .= "PDF version: " . $node->nodeValue . "  ";
 						break;
 					case 'status':
-						$markdown .= "Status: " . $node->nodeValue . "  ";
+						$status = $node->nodeValue;
+						$markdown .= "Status: " . $status . "  ";
+						self::$status = $status;
 						break;
 					default:
 						break;
@@ -42,4 +47,5 @@ class xmlUtils
 
 		return $markdown;
 	}
+
 }

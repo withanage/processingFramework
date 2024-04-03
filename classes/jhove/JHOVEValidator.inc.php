@@ -2,13 +2,13 @@
 
 
 namespace jhove;
-use Validator;
+use ServiceValidator;
 
-import('plugins.generic.processingFramework.classes.Validator');
+import('plugins.generic.processingFramework.classes.ServiceValidator');
 import('plugins.generic.processingFramework.classes.jhove.JHOVEFormattedResults');
 import ('plugins.generic.processingFramework.classes.FormattedResults');
 
-class JHOVEValidator extends Validator
+class JHOVEServiceValidator extends ServiceValidator
 
 {
 
@@ -52,6 +52,18 @@ class JHOVEValidator extends Validator
 	{
 		return 'jhove';
 	}
+
+	public function validate(): bool
+	{
+
+		$X = $this->getOutput();
+		return false;
+
+	}
+
+
+
+
 
 
 

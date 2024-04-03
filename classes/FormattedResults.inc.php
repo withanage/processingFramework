@@ -17,7 +17,7 @@ abstract class FormattedResults
 	{
 		$this->input = $input;
 		$this->errors = $errors;
-		$this->createRows();
+		$this->createRow();
 
 	}
 
@@ -30,7 +30,7 @@ abstract class FormattedResults
 	{
 		return $this->rows;
 	}
-	abstract  function createRows(): void;
+	abstract  function createRow(): void;
 
 	public function getMarkdownRows(): string
 

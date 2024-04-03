@@ -2,7 +2,7 @@
 
 import ('plugins.generic.processingFramework.classes.FormattedResults');
 import('lib.pkp.classes.file.PrivateFileManager');
-abstract class Validator
+abstract class ServiceValidator
  {
 
 	protected array $errors = [];
@@ -21,7 +21,8 @@ abstract class Validator
 		$fileManager = new PrivateFileManager();
 		$fullPath = $fileManager->getBasePath() . DIRECTORY_SEPARATOR .$filePath;
 		if(in_array(mime_content_type($fullPath),$this->getSupportedMimeTypes())){
-			$this->executeCommand($filePath);
+			$this->executeCommand($fullPath);
+			$this->validate();
 		}
 
 	}
@@ -30,6 +31,7 @@ abstract class Validator
 	abstract public function getServiceName(): string;
 	abstract public function getServicePath(): string;
 	abstract public function getSupportedMimeTypes(): array;
+	abstract public function  validate(): bool;
 
 	public function getLocalServicePath() :string
 	{
@@ -40,5 +42,6 @@ abstract class Validator
 	{
 		return $this->errors;
 	}
+
 
 }

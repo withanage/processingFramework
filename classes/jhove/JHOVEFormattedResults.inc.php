@@ -3,11 +3,10 @@
 namespace jhove;
 
 import('plugins.generic.processingFramework.classes.FormattedResults');
-import('plugins.generic.processingFramework.classes.utils.xmlUtils');
+import('plugins.generic.processingFramework.classes.jhove.xmlUtils');
 
 use DOMDocument;
 use FormattedResults;
-use xmlUtils;
 
 
 class JHOVEFormattedResults extends  FormattedResults
@@ -22,13 +21,14 @@ class JHOVEFormattedResults extends  FormattedResults
 		parent::__construct($input, $errors);
 	}
 
-	function createRows(): void
+	function createRow(): void
 	{
 		$markdown = '';
 
 		if ($this->errors) {
 			foreach ($this->errors as $error){
-				$markdown.=  $error;
+				$resultRow = new \FormattedRow(PF_ERROR, $error);
+				$this->addRow($resultRow);
 			}
 		}
 		else {
@@ -38,10 +38,11 @@ class JHOVEFormattedResults extends  FormattedResults
 			foreach ($xml->documentElement->childNodes as $node) {
 				$markdown .= xmlUtils::xmlNodeToString($node);
 			}
+			$resultRow = new \FormattedRow(PF_INFO, $markdown);
+			$this->addRow($resultRow);
+
 
 		}
-		$resultRow = new \FormattedRow(PF_INFO, $markdown);
-		$this->addRow($resultRow);
 
 
 	}
