@@ -8,7 +8,7 @@ import('plugins.generic.processingFramework.classes.ServiceValidator');
 import('plugins.generic.processingFramework.classes.jhove.JHOVEFormattedResults');
 import ('plugins.generic.processingFramework.classes.FormattedResults');
 
-class JHOVEServiceValidator extends ServiceValidator
+class JHOVEValidator extends ServiceValidator
 
 {
 

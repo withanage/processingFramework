@@ -227,7 +227,7 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		foreach ($galleys as $galley) {
 			$galleyFile = $galley->getFile();
-			$jhoveValidator = new  JHOVEServiceValidator($this, $galleyFile->getData('path'));
+			$jhoveValidator = new  JHOVEValidator($this, $galleyFile->getData('path'));
 			foreach($jhoveValidator->getErrors() as $error) {
 				$errors['jhoveValidator'] = $error;
 			}
