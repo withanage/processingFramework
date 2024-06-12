@@ -27,7 +27,6 @@ class ProcessingFrameworkPluginSettingsForm extends Form
 	public function initData() {
 		$contextId = Application::get()->getRequest()->getContext()->getId();
 		$this->setData('enableJhove', $this->plugin->getSetting($contextId, 'enableJhove'));
-
 		parent::initData();
 	}
 

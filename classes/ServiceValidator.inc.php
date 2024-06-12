@@ -1,8 +1,9 @@
 <?php
 
+import ('plugins.generic.processingFramework.classes.Service');
 import ('plugins.generic.processingFramework.classes.FormattedResults');
 import('lib.pkp.classes.file.PrivateFileManager');
-abstract class ServiceValidator
+abstract class ServiceValidator extends Service
  {
 
 	protected array $errors = [];
@@ -26,17 +27,8 @@ abstract class ServiceValidator
 		}
 
 	}
-	abstract public function executeCommand(string $validatableObject) : bool;
 
-	abstract public function getServiceName(): string;
-	abstract public function getServicePath(): string;
-	abstract public function getSupportedMimeTypes(): array;
-	abstract public function  validate(): bool;
 
-	public function getLocalServicePath() :string
-	{
-	return $this->pluginToolsPath.DIRECTORY_SEPARATOR.$this->getServiceName().DIRECTORY_SEPARATOR.$this->getServicePath();
-	}
 
 	public function getErrors(): array
 	{
