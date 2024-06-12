@@ -1,12 +1,12 @@
 <?php
 
 
-use jhove\JHOVEValidator;
+use jhove\JHOVE;
 use jhove\JHOVEFormattedResults;
 
 import('classes.handler.Handler');
 
-import('plugins.generic.processingFramework.classes.jhove.JHOVEValidator');
+import('plugins.generic.processingFramework.classes.jhove.JHOVE');
 import('plugins.generic.processingFramework.classes.jhove.JHOVEFormattedResults');
 
 
@@ -64,8 +64,8 @@ class ProcessingFrameworkHandler extends Handler
 
 
 		$tempFileName = tempnam(sys_get_temp_dir(), 'processingFramework');
-		$jhoveValidator = new  JHOVEValidator($this->_plugin,  $submissionFile->getData('path'));
-		$results = new JHOVEFormattedResults($jhoveValidator->getOutput(), $jhoveValidator->getErrors());
+		$jhove = new  JHOVE($this->_plugin,  $submissionFile->getData('path'));
+		$results = new JHOVEFormattedResults($jhove->getOutput(), $jhove->getErrors());
 
 		$markDownResult= $results->getMarkdownRows();
 

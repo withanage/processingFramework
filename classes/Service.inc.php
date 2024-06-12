@@ -15,6 +15,16 @@ abstract class Service
 		return $this->output;
 	}
 	protected \Plugin $plugin;
+	public function __construct( \Plugin $plugin, string $filePath)
+	{
+		$this->pluginToolsPath = \Core::getBaseDir().DIRECTORY_SEPARATOR.$plugin->getPluginPath().DIRECTORY_SEPARATOR.'bin';
+		$fileManager = new PrivateFileManager();
+		$fullPath = $fileManager->getBasePath() . DIRECTORY_SEPARATOR .$filePath;
+		if(in_array(mime_content_type($fullPath),$this->getSupportedMimeTypes())){
+			$this->executeCommand($fullPath);
+		}
+
+	}
 
 	abstract public function executeCommand(string $validatableObject) : bool;
 

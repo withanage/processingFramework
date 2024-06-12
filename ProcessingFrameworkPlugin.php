@@ -12,11 +12,11 @@ use PKP\plugins\Hook;
 use PKP\plugins\PluginRegistry;
 use PKP\submissionFile\SubmissionFile;
 use PKP\config\Config;
-use jhove\JHOVEValidator;
+use jhove\JHOVE;
 
 
 import('lib.pkp.classes.plugins.GenericPlugin');
-import('plugins.generic.processingFramework.classes.jhove.JHOVEValidator');
+import('plugins.generic.processingFramework.classes.jhove.JHOVE');
 
 define('PF_INFO', "INFO");
 define('PF_ERROR', "ERROR");
@@ -227,9 +227,9 @@ class ProcessingFrameworkPlugin extends GenericPlugin
 
 		foreach ($galleys as $galley) {
 			$galleyFile = $galley->getFile();
-			$jhoveValidator = new  JHOVEValidator($this, $galleyFile->getData('path'));
-			foreach($jhoveValidator->getErrors() as $error) {
-				$errors['jhoveValidator'] = $error;
+			$jhove = new  JHOVE($this, $galleyFile->getData('path'));
+			foreach($jhove->getErrors() as $error) {
+				$errors['jhove'] = $error;
 			}
 		}
 
