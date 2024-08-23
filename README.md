@@ -1,6 +1,6 @@
-## File Validator plugin
+## Processing Framework
 
-This Plugin validates the article  galley pdf quality  for indexing in the following services:
+
 
 Currently included open-source tools
 - [JHOVE]( https://github.com/openpreserve/jhove)
